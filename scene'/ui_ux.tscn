@@ -12,8 +12,8 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Pixil-frame-0" type="Sprite2D" parent="."]
-position = Vector2(627, 438)
-scale = Vector2(0.627, 0.606944)
+position = Vector2(651.5, 440)
+scale = Vector2(0.6515, 0.606944)
 texture = ExtResource("1_jgpgp")
 
 [node name="Play" type="Button" parent="."]

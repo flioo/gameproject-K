@@ -1,7 +1,7 @@
 [gd_scene load_steps=12 format=3 uid="uid://dtxw0vpoo4vmp"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_l0wf3"]
-[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/char/PlayerSprite02.png" id="2_4indl"]
+[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="2_4indl"]
 
 [sub_resource type="Animation" id="Animation_dubto"]
 length = 0.001

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://daa30k4gw8axc"
-path="res://.godot/imported/pawn_flip.png-33f4da2e3e056d118eb054e7dbc4eae3.ctex"
+path="res://.godot/imported/pawn_flip.png-f7a14e0932d3dacfd4c0cf293584f13b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/pawn_flip.png"
-dest_files=["res://.godot/imported/pawn_flip.png-33f4da2e3e056d118eb054e7dbc4eae3.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/pawn_flip.png"
+dest_files=["res://.godot/imported/pawn_flip.png-f7a14e0932d3dacfd4c0cf293584f13b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://e82yw3kfxwj7"
-path="res://.godot/imported/tokens_shadow.svg-95929b6c49e4c9760ec74bd36255b2ab.ctex"
+path="res://.godot/imported/tokens_shadow.svg-203b9a91da610eb77c55bb6c083bf9c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/tokens_shadow.svg"
-dest_files=["res://.godot/imported/tokens_shadow.svg-95929b6c49e4c9760ec74bd36255b2ab.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/tokens_shadow.svg"
+dest_files=["res://.godot/imported/tokens_shadow.svg-203b9a91da610eb77c55bb6c083bf9c0.ctex"]
 
 [params]
 

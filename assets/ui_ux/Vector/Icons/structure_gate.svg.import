@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2lmkaqjay3hp"
-path="res://.godot/imported/structure_gate.svg-566a8dbe9702b31c887fea9360a1d8e0.ctex"
+path="res://.godot/imported/structure_gate.svg-96f112e5d122b78a4883d007cb284cc6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/structure_gate.svg"
-dest_files=["res://.godot/imported/structure_gate.svg-566a8dbe9702b31c887fea9360a1d8e0.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/structure_gate.svg"
+dest_files=["res://.godot/imported/structure_gate.svg-96f112e5d122b78a4883d007cb284cc6.ctex"]
 
 [params]
 

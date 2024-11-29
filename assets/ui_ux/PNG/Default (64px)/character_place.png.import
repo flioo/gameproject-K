@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://k8p5qouwdwns"
-path="res://.godot/imported/character_place.png-af4f66e8637368933d122d40a8ecc85e.ctex"
+path="res://.godot/imported/character_place.png-69c517ad830fa3da95fefcb0093e2c20.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/character_place.png"
-dest_files=["res://.godot/imported/character_place.png-af4f66e8637368933d122d40a8ecc85e.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/character_place.png"
+dest_files=["res://.godot/imported/character_place.png-69c517ad830fa3da95fefcb0093e2c20.ctex"]
 
 [params]
 

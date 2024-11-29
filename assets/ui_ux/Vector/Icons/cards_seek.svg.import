@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://biawtaw1py3fp"
-path="res://.godot/imported/cards_seek.svg-ce7e026cd44d1aea72704a90a89d69b8.ctex"
+path="res://.godot/imported/cards_seek.svg-27d8ff2975264e856e6ed221015d96ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/cards_seek.svg"
-dest_files=["res://.godot/imported/cards_seek.svg-ce7e026cd44d1aea72704a90a89d69b8.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/cards_seek.svg"
+dest_files=["res://.godot/imported/cards_seek.svg-27d8ff2975264e856e6ed221015d96ac.ctex"]
 
 [params]
 

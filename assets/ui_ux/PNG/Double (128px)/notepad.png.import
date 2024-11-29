@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d32v6mt3hxbso"
-path="res://.godot/imported/notepad.png-dd228c08a9b4c681c3d75275cdf6871d.ctex"
+path="res://.godot/imported/notepad.png-7b32bcc33793ce21030b366c2a72adf6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/notepad.png"
-dest_files=["res://.godot/imported/notepad.png-dd228c08a9b4c681c3d75275cdf6871d.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/notepad.png"
+dest_files=["res://.godot/imported/notepad.png-7b32bcc33793ce21030b366c2a72adf6.ctex"]
 
 [params]
 

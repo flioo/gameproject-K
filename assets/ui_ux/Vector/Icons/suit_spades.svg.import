@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7vbbm3kuls41"
-path="res://.godot/imported/suit_spades.svg-d8b4cc82e9ad73ab3c3779eef4fb4f7e.ctex"
+path="res://.godot/imported/suit_spades.svg-9bc0a0704e7bee4fe4272ddf08a75e00.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/suit_spades.svg"
-dest_files=["res://.godot/imported/suit_spades.svg-d8b4cc82e9ad73ab3c3779eef4fb4f7e.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/suit_spades.svg"
+dest_files=["res://.godot/imported/suit_spades.svg-9bc0a0704e7bee4fe4272ddf08a75e00.ctex"]
 
 [params]
 

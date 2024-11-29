@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dw6nkqpiuvt2y"
-path="res://.godot/imported/skull.png-77efac9142fe250fd84290a75e68b78f.ctex"
+path="res://.godot/imported/skull.png-733d4d5c8f106ac9c45907a04ca5fec5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/skull.png"
-dest_files=["res://.godot/imported/skull.png-77efac9142fe250fd84290a75e68b78f.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/skull.png"
+dest_files=["res://.godot/imported/skull.png-733d4d5c8f106ac9c45907a04ca5fec5.ctex"]
 
 [params]
 

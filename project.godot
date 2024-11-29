@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="gameproject-K"
-run/main_scene="res://gameproject-K/scene'/ui_ux.tscn"
-config/features=PackedStringArray("4.3", "GL Compatibility")
 config/tags=PackedStringArray("priority")
+run/main_scene="res://scene'/ui_ux.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
 
 [rendering]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx446srtj7n6w"
-path="res://.godot/imported/character_lift.png-84b2a2498ba294545df10980d9fb4bbe.ctex"
+path="res://.godot/imported/character_lift.png-48432b5af8efd630fa1c7f351b7a6b48.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/character_lift.png"
-dest_files=["res://.godot/imported/character_lift.png-84b2a2498ba294545df10980d9fb4bbe.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/character_lift.png"
+dest_files=["res://.godot/imported/character_lift.png-48432b5af8efd630fa1c7f351b7a6b48.ctex"]
 
 [params]
 

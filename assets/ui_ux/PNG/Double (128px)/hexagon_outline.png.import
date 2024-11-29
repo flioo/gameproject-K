@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnq07gjwdj5ht"
-path="res://.godot/imported/hexagon_outline.png-4cd43b9bddf68a02af80ef1583eee50a.ctex"
+path="res://.godot/imported/hexagon_outline.png-20d7b00decf05d89c0d7df0b1acc9030.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/hexagon_outline.png"
-dest_files=["res://.godot/imported/hexagon_outline.png-4cd43b9bddf68a02af80ef1583eee50a.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/hexagon_outline.png"
+dest_files=["res://.godot/imported/hexagon_outline.png-20d7b00decf05d89c0d7df0b1acc9030.ctex"]
 
 [params]
 

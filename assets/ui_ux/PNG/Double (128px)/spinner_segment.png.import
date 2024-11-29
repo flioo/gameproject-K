@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfhj823e7j2xi"
-path="res://.godot/imported/spinner_segment.png-a04a6504e34d3e84bea894a0fce0cd1e.ctex"
+path="res://.godot/imported/spinner_segment.png-a05b34369d46c2c6df3283820ed83986.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/spinner_segment.png"
-dest_files=["res://.godot/imported/spinner_segment.png-a04a6504e34d3e84bea894a0fce0cd1e.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/spinner_segment.png"
+dest_files=["res://.godot/imported/spinner_segment.png-a05b34369d46c2c6df3283820ed83986.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c075frg02fpav"
-path="res://.godot/imported/card_rotate.png-69365426931ac48d6a5dad4ce60c3223.ctex"
+path="res://.godot/imported/card_rotate.png-f132c6f1a56973c3f45d060a52189f5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/card_rotate.png"
-dest_files=["res://.godot/imported/card_rotate.png-69365426931ac48d6a5dad4ce60c3223.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/card_rotate.png"
+dest_files=["res://.godot/imported/card_rotate.png-f132c6f1a56973c3f45d060a52189f5b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfweejfqoey6j"
-path="res://.godot/imported/arrow_clockwise.png-e23449d176082b82ede3732237430aee.ctex"
+path="res://.godot/imported/arrow_clockwise.png-ade6caa711dd0a8eef661b4e7e6f5083.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/arrow_clockwise.png"
-dest_files=["res://.godot/imported/arrow_clockwise.png-e23449d176082b82ede3732237430aee.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/arrow_clockwise.png"
+dest_files=["res://.godot/imported/arrow_clockwise.png-ade6caa711dd0a8eef661b4e7e6f5083.ctex"]
 
 [params]
 

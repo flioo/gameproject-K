@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c02e4wd8oxdel"
-path="res://.godot/imported/tag_shield_infinite.svg-0003b43f5a9611099355a2300502fb35.ctex"
+path="res://.godot/imported/tag_shield_infinite.svg-b76d69850cab3f4e4abc777b156508f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/tag_shield_infinite.svg"
-dest_files=["res://.godot/imported/tag_shield_infinite.svg-0003b43f5a9611099355a2300502fb35.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/tag_shield_infinite.svg"
+dest_files=["res://.godot/imported/tag_shield_infinite.svg-b76d69850cab3f4e4abc777b156508f4.ctex"]
 
 [params]
 

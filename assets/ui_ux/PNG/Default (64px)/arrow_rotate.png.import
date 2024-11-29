@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp55qw2t14gim"
-path="res://.godot/imported/arrow_rotate.png-6afc15f1557ff05d1020a17ee65924c6.ctex"
+path="res://.godot/imported/arrow_rotate.png-de1c66e8069e64857941050fa1020b25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/arrow_rotate.png"
-dest_files=["res://.godot/imported/arrow_rotate.png-6afc15f1557ff05d1020a17ee65924c6.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/arrow_rotate.png"
+dest_files=["res://.godot/imported/arrow_rotate.png-de1c66e8069e64857941050fa1020b25.ctex"]
 
 [params]
 

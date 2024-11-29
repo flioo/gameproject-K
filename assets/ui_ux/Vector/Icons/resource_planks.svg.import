@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ybj6hp5eel1b"
-path="res://.godot/imported/resource_planks.svg-2c168cbe994924d7f5c0d90e7859d4c6.ctex"
+path="res://.godot/imported/resource_planks.svg-b9d5c48fa2d3864cb3a2ba061debdf54.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/resource_planks.svg"
-dest_files=["res://.godot/imported/resource_planks.svg-2c168cbe994924d7f5c0d90e7859d4c6.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/resource_planks.svg"
+dest_files=["res://.godot/imported/resource_planks.svg-b9d5c48fa2d3864cb3a2ba061debdf54.ctex"]
 
 [params]
 

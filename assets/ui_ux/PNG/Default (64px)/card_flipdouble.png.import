@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://58xuksa4d4v6"
-path="res://.godot/imported/card_flipdouble.png-88c2d0a7098f8a0f4ee7aebef53ae9f4.ctex"
+path="res://.godot/imported/card_flipdouble.png-e135769341e8e442e4d5f6084aceb6f7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/card_flipdouble.png"
-dest_files=["res://.godot/imported/card_flipdouble.png-88c2d0a7098f8a0f4ee7aebef53ae9f4.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/card_flipdouble.png"
+dest_files=["res://.godot/imported/card_flipdouble.png-e135769341e8e442e4d5f6084aceb6f7.ctex"]
 
 [params]
 

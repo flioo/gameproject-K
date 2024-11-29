@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwxfptsmmx1sq"
-path="res://.godot/imported/d8_outline.png-780051b2fa4b9c981f4b131a6a75e82f.ctex"
+path="res://.godot/imported/d8_outline.png-a82bf3ba328844c449ba0d1e0fd925a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/d8_outline.png"
-dest_files=["res://.godot/imported/d8_outline.png-780051b2fa4b9c981f4b131a6a75e82f.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/d8_outline.png"
+dest_files=["res://.godot/imported/d8_outline.png-a82bf3ba328844c449ba0d1e0fd925a4.ctex"]
 
 [params]
 

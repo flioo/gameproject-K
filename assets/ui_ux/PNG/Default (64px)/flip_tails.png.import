@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhf6ajh6ef5h0"
-path="res://.godot/imported/flip_tails.png-d89d60120bde6d4acb72fc09ed7420b1.ctex"
+path="res://.godot/imported/flip_tails.png-b1fb0ab3ef22863e0c8d8f693ddcf125.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/flip_tails.png"
-dest_files=["res://.godot/imported/flip_tails.png-d89d60120bde6d4acb72fc09ed7420b1.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/flip_tails.png"
+dest_files=["res://.godot/imported/flip_tails.png-b1fb0ab3ef22863e0c8d8f693ddcf125.ctex"]
 
 [params]
 

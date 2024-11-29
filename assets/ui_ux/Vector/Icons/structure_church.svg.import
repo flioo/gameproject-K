@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ur42rx3p63f"
-path="res://.godot/imported/structure_church.svg-faab6485a2b4df12752c1b38aa701bed.ctex"
+path="res://.godot/imported/structure_church.svg-7408ae012a0fff7def18a9e3be79ac80.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/structure_church.svg"
-dest_files=["res://.godot/imported/structure_church.svg-faab6485a2b4df12752c1b38aa701bed.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/structure_church.svg"
+dest_files=["res://.godot/imported/structure_church.svg-7408ae012a0fff7def18a9e3be79ac80.ctex"]
 
 [params]
 

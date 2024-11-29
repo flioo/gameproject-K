@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyi2h8wetqw54"
-path="res://.godot/imported/resource_apple.svg-c50d742c25db56d77c1f84148dd6c19c.ctex"
+path="res://.godot/imported/resource_apple.svg-ed7830786b375d8accf3e2cf080c7843.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/resource_apple.svg"
-dest_files=["res://.godot/imported/resource_apple.svg-c50d742c25db56d77c1f84148dd6c19c.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/resource_apple.svg"
+dest_files=["res://.godot/imported/resource_apple.svg-ed7830786b375d8accf3e2cf080c7843.ctex"]
 
 [params]
 

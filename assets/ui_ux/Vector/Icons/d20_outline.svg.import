@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxvpwmeg4gepm"
-path="res://.godot/imported/d20_outline.svg-4edf41da0b312c470206b3ad588085b2.ctex"
+path="res://.godot/imported/d20_outline.svg-21f832a959586cf33ec865829f347068.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/d20_outline.svg"
-dest_files=["res://.godot/imported/d20_outline.svg-4edf41da0b312c470206b3ad588085b2.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/d20_outline.svg"
+dest_files=["res://.godot/imported/d20_outline.svg-21f832a959586cf33ec865829f347068.ctex"]
 
 [params]
 

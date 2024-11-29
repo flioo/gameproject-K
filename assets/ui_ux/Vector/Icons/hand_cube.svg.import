@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpg85en7x8m8t"
-path="res://.godot/imported/hand_cube.svg-d622df2cfbf777fbacb53053c6b12ec5.ctex"
+path="res://.godot/imported/hand_cube.svg-a86cf6b5ae37e12b91ed5799365ed4c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/hand_cube.svg"
-dest_files=["res://.godot/imported/hand_cube.svg-d622df2cfbf777fbacb53053c6b12ec5.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/hand_cube.svg"
+dest_files=["res://.godot/imported/hand_cube.svg-a86cf6b5ae37e12b91ed5799365ed4c2.ctex"]
 
 [params]
 

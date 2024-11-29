@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cst0jb6ei3npv"
-path="res://.godot/imported/structure_house.png-c2c5d6a714ac00906b3deb0a0ee7fb4a.ctex"
+path="res://.godot/imported/structure_house.png-c67094610aded20d7195fb85fe5f0961.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/structure_house.png"
-dest_files=["res://.godot/imported/structure_house.png-c2c5d6a714ac00906b3deb0a0ee7fb4a.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/structure_house.png"
+dest_files=["res://.godot/imported/structure_house.png-c67094610aded20d7195fb85fe5f0961.ctex"]
 
 [params]
 

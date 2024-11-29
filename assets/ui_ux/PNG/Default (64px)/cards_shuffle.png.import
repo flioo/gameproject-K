@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkxublkpgvcs0"
-path="res://.godot/imported/cards_shuffle.png-374fa3467daccdb5c2e61c01b21096de.ctex"
+path="res://.godot/imported/cards_shuffle.png-36bd15e7c613fb414a0bf18476c0c8a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/cards_shuffle.png"
-dest_files=["res://.godot/imported/cards_shuffle.png-374fa3467daccdb5c2e61c01b21096de.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/cards_shuffle.png"
+dest_files=["res://.godot/imported/cards_shuffle.png-36bd15e7c613fb414a0bf18476c0c8a3.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bs8773ounc71c"
-path="res://.godot/imported/d20_number.svg-91544645ad941feb69bc258de22d9cc8.ctex"
+path="res://.godot/imported/d20_number.svg-0203532aa2180ad65681aa427e2c20b6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/d20_number.svg"
-dest_files=["res://.godot/imported/d20_number.svg-91544645ad941feb69bc258de22d9cc8.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/d20_number.svg"
+dest_files=["res://.godot/imported/d20_number.svg-0203532aa2180ad65681aa427e2c20b6.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://f766rxgb0y36"
-path="res://.godot/imported/pouch.png-a658f0473d16e0e819da2594e06a0d76.ctex"
+path="res://.godot/imported/pouch.png-9fd0d6274cdb0c9651af7fa0df998cd2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/pouch.png"
-dest_files=["res://.godot/imported/pouch.png-a658f0473d16e0e819da2594e06a0d76.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/pouch.png"
+dest_files=["res://.godot/imported/pouch.png-9fd0d6274cdb0c9651af7fa0df998cd2.ctex"]
 
 [params]
 

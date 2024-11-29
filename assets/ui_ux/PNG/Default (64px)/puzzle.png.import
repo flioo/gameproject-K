@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btpe1qn17nu70"
-path="res://.godot/imported/puzzle.png-714e313132a912af14763771b7e51109.ctex"
+path="res://.godot/imported/puzzle.png-88bcbf7758159570d3186baabc3465af.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/puzzle.png"
-dest_files=["res://.godot/imported/puzzle.png-714e313132a912af14763771b7e51109.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/puzzle.png"
+dest_files=["res://.godot/imported/puzzle.png-88bcbf7758159570d3186baabc3465af.ctex"]
 
 [params]
 

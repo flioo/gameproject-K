@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d17a1p3abwn8o"
-path="res://.godot/imported/arrow_right_curve.png-bbb05538ed928d1c52047455e8fedc8f.ctex"
+path="res://.godot/imported/arrow_right_curve.png-1fa05462350b9bfb5a9b47516eee2888.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/arrow_right_curve.png"
-dest_files=["res://.godot/imported/arrow_right_curve.png-bbb05538ed928d1c52047455e8fedc8f.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/arrow_right_curve.png"
+dest_files=["res://.godot/imported/arrow_right_curve.png-1fa05462350b9bfb5a9b47516eee2888.ctex"]
 
 [params]
 

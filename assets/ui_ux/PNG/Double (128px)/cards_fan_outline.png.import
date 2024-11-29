@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjoskuo5sa8yu"
-path="res://.godot/imported/cards_fan_outline.png-21230c007d53a6108e62b2a4634959af.ctex"
+path="res://.godot/imported/cards_fan_outline.png-d45661ab116692f97a59c5635a39a8ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/cards_fan_outline.png"
-dest_files=["res://.godot/imported/cards_fan_outline.png-21230c007d53a6108e62b2a4634959af.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/cards_fan_outline.png"
+dest_files=["res://.godot/imported/cards_fan_outline.png-d45661ab116692f97a59c5635a39a8ce.ctex"]
 
 [params]
 

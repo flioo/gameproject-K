@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pdwnb0etr2ko"
-path="res://.godot/imported/resource_wheat.svg-32acaa24523a1e3005f48959de0f38a8.ctex"
+path="res://.godot/imported/resource_wheat.svg-f4662a8da2a5e99fa95160f3f2b80436.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/resource_wheat.svg"
-dest_files=["res://.godot/imported/resource_wheat.svg-32acaa24523a1e3005f48959de0f38a8.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/resource_wheat.svg"
+dest_files=["res://.godot/imported/resource_wheat.svg-f4662a8da2a5e99fa95160f3f2b80436.ctex"]
 
 [params]
 

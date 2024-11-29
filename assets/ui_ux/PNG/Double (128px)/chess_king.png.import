@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvolmrue7ix5k"
-path="res://.godot/imported/chess_king.png-d0b7591e900a422683b6a4d5be5efbff.ctex"
+path="res://.godot/imported/chess_king.png-d5f8ad13e043b3a2c058156c3df404c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/chess_king.png"
-dest_files=["res://.godot/imported/chess_king.png-d0b7591e900a422683b6a4d5be5efbff.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/chess_king.png"
+dest_files=["res://.godot/imported/chess_king.png-d5f8ad13e043b3a2c058156c3df404c8.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ntewqovnoilw"
-path="res://.godot/imported/tag_infinite.png-03988b60eba8ced62fb69dc69e9ab0d5.ctex"
+path="res://.godot/imported/tag_infinite.png-b70e6869ae894e6fe78f1fa87554359d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/tag_infinite.png"
-dest_files=["res://.godot/imported/tag_infinite.png-03988b60eba8ced62fb69dc69e9ab0d5.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/tag_infinite.png"
+dest_files=["res://.godot/imported/tag_infinite.png-b70e6869ae894e6fe78f1fa87554359d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwnxh6aiglfvp"
-path="res://.godot/imported/chess_queen.png-557cbc380ae1d417d1681da7fe737f5e.ctex"
+path="res://.godot/imported/chess_queen.png-1ded133b256f4ab5288eef512ae6f5ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/chess_queen.png"
-dest_files=["res://.godot/imported/chess_queen.png-557cbc380ae1d417d1681da7fe737f5e.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/chess_queen.png"
+dest_files=["res://.godot/imported/chess_queen.png-1ded133b256f4ab5288eef512ae6f5ea.ctex"]
 
 [params]
 

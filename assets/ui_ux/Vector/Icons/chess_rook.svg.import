@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhxl01hga41nb"
-path="res://.godot/imported/chess_rook.svg-dc43d999e85aa30c4c00c773428e7335.ctex"
+path="res://.godot/imported/chess_rook.svg-e0803acdf5bc08d348e973a93ba1b053.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/chess_rook.svg"
-dest_files=["res://.godot/imported/chess_rook.svg-dc43d999e85aa30c4c00c773428e7335.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/chess_rook.svg"
+dest_files=["res://.godot/imported/chess_rook.svg-e0803acdf5bc08d348e973a93ba1b053.ctex"]
 
 [params]
 

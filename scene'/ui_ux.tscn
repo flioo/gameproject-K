@@ -1,57 +1,43 @@
 [gd_scene load_steps=2 format=3 uid="uid://0tmk0etw3b5t"]
 
-[ext_resource type="Texture2D" uid="uid://bk3yemgef5wc7" path="res://gameproject-K/assets/ui_ux/BG/pixil-frame-0.png" id="1_jgpgp"]
+[ext_resource type="Texture2D" uid="uid://bk3yemgef5wc7" path="res://assets/ui_ux/BG/pixil-frame-0.png" id="1_jgpgp"]
 
 [node name="ui_ux" type="Control"]
 layout_mode = 3
-anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 9.0
+offset_right = 3.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Pixil-frame-0" type="Sprite2D" parent="."]
-position = Vector2(651.5, 440)
-scale = Vector2(0.6515, 0.606944)
+position = Vector2(695.25, 440)
+scale = Vector2(0.69475, 0.607)
 texture = ExtResource("1_jgpgp")
 
-[node name="Play" type="Button" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.488
-anchor_top = 0.725
-anchor_right = 0.488
-anchor_bottom = 0.725
-offset_left = -100.176
-offset_top = -38.8
-offset_right = 99.824
-offset_bottom = 38.2
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -97.5
+offset_top = -155.0
+offset_right = 97.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
 text = "Play"
 
-[node name="Settings" type="Button" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.495
-anchor_top = 0.729
-anchor_right = 0.495
-anchor_bottom = 0.729
-offset_left = -108.24
-offset_top = 59.608
-offset_right = 91.7599
-offset_bottom = 136.608
+[node name="Settings" type="Button" parent="VBoxContainer"]
+layout_mode = 2
 text = "Settings"
 
-[node name="AboutUS" type="Button" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.495
-anchor_top = 0.729
-anchor_right = 0.495
-anchor_bottom = 0.729
-offset_left = -566.24
-offset_top = 89.608
-offset_right = -366.24
-offset_bottom = 166.608
-text = "AboutUS
+[node name="AboutUS" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+text = "About us
 "

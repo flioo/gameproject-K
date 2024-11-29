@@ -132,6 +132,7 @@ _data = {
 
 [node name="player" type="CharacterBody2D"]
 position = Vector2(210, 112)
+collision_mask = 16
 script = ExtResource("1_l0wf3")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

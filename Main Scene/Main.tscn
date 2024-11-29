@@ -1,7 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://daq6c1k1sh72t"]
 
-[ext_resource type="PackedScene" uid="uid://c5or8k8dja0qg" path="res://scene'/test-game/test-pre-game.tscn" id="1_ubvrg"]
+[ext_resource type="PackedScene" uid="uid://c5or8k8dja0qg" path="res://scene'/test-game/test-pre-game.tscn" id="1_mir44"]
 
 [node name="Main" type="Node2D"]
 
-[node name="Game" parent="." instance=ExtResource("1_ubvrg")]
+[node name="Game" parent="." instance=ExtResource("1_mir44")]

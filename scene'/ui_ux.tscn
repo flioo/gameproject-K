@@ -11,8 +11,8 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Pixil-frame-0" type="Sprite2D" parent="."]
-position = Vector2(695.25, 440)
-scale = Vector2(0.69475, 0.607)
+position = Vector2(695.25, 433.02)
+scale = Vector2(0.69475, 0.616694)
 texture = ExtResource("1_jgpgp")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]

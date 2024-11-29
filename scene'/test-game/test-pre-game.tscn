@@ -1,0 +1,101 @@
+[gd_scene load_steps=5 format=3 uid="uid://c5or8k8dja0qg"]
+
+[ext_resource type="Texture2D" uid="uid://c4av3gq44sb0m" path="res://assets/pixelroma/enviroment/grassblock.png" id="1_w11gb"]
+[ext_resource type="Texture2D" uid="uid://dwhs70cldmv12" path="res://assets/pixelroma/enviroment/path.png" id="2_h8dfa"]
+[ext_resource type="PackedScene" uid="uid://dtxw0vpoo4vmp" path="res://scene'/player.tscn" id="2_wxtlf"]
+[ext_resource type="Texture2D" uid="uid://0gq0k6iwrxtw" path="res://assets/pixelroma/enviroment/tree.png" id="3_f3qv8"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Grassblock" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -32.0
+offset_top = -32.0
+offset_right = 77.0
+offset_bottom = 32.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(11, 11)
+texture = ExtResource("1_w11gb")
+
+[node name="Path" type="TextureRect" parent="."]
+offset_left = 177.0
+offset_top = -209.0
+offset_right = 305.0
+offset_bottom = -99.9999
+scale = Vector2(10, 10)
+texture = ExtResource("2_h8dfa")
+
+[node name="player" parent="." instance=ExtResource("2_wxtlf")]
+
+[node name="Tree" type="TextureRect" parent="."]
+offset_left = 31.0
+offset_top = 431.0
+offset_right = 179.0
+offset_bottom = 625.0
+texture = ExtResource("3_f3qv8")
+
+[node name="Tree2" type="TextureRect" parent="."]
+offset_left = 269.0
+offset_top = 279.0
+offset_right = 417.0
+offset_bottom = 473.0
+texture = ExtResource("3_f3qv8")
+
+[node name="Tree3" type="TextureRect" parent="."]
+offset_left = 71.0
+offset_top = 117.0
+offset_right = 219.0
+offset_bottom = 311.0
+texture = ExtResource("3_f3qv8")
+
+[node name="Tree4" type="TextureRect" parent="."]
+offset_left = 667.0
+offset_top = 65.0
+offset_right = 815.0
+offset_bottom = 259.0
+texture = ExtResource("3_f3qv8")
+
+[node name="Tree5" type="TextureRect" parent="."]
+offset_left = 857.0
+offset_top = 211.0
+offset_right = 1005.0
+offset_bottom = 405.0
+texture = ExtResource("3_f3qv8")
+
+[node name="Tree6" type="TextureRect" parent="."]
+offset_left = 637.0
+offset_top = 387.0
+offset_right = 785.0
+offset_bottom = 581.0
+texture = ExtResource("3_f3qv8")
+
+[node name="Tree7" type="TextureRect" parent="."]
+offset_left = 383.0
+offset_top = 9.0
+offset_right = 531.0
+offset_bottom = 203.0
+texture = ExtResource("3_f3qv8")
+
+[node name="Tree8" type="TextureRect" parent="."]
+offset_left = 940.0
+offset_top = 4.0
+offset_right = 1088.0
+offset_bottom = 198.0
+texture = ExtResource("3_f3qv8")
+
+[node name="Tree9" type="TextureRect" parent="."]
+offset_left = 966.0
+offset_top = 401.0
+offset_right = 1114.0
+offset_bottom = 595.0
+texture = ExtResource("3_f3qv8")
+
+[node name="Tree10" type="TextureRect" parent="."]
+offset_left = -47.0
+offset_top = -32.0
+offset_right = 101.0
+offset_bottom = 162.0
+texture = ExtResource("3_f3qv8")

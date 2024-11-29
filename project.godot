@@ -19,6 +19,13 @@ config/features=PackedStringArray("4.3", "GL Compatibility")
 
 project/assembly_name="gameproject-K"
 
+[file_customization]
+
+folder_colors={
+"res://assets/": "green",
+"res://scripts/": "gray"
+}
+
 [input]
 
 up={

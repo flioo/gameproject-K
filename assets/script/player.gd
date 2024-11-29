@@ -30,7 +30,6 @@ func _process(delta) :
 func _physics_process(delta) :
 	move_and_slide()
 
-
 func SetDirection() -> bool :
 	var new_dir : Vector2 =cardinal_direction
 	if direction == Vector2.ZERO:

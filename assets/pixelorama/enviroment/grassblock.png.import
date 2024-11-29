@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0gq0k6iwrxtw"
-path="res://.godot/imported/tree.png-6c355302d81868f1b6c275105cf5fba6.ctex"
+uid="uid://c4av3gq44sb0m"
+path="res://.godot/imported/grassblock.png-cbca95b26b7403797838d4c6ada467c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pixelroma/enviroment/tree.png"
-dest_files=["res://.godot/imported/tree.png-6c355302d81868f1b6c275105cf5fba6.ctex"]
+source_file="res://assets/pixelorama/enviroment/grassblock.png"
+dest_files=["res://.godot/imported/grassblock.png-cbca95b26b7403797838d4c6ada467c7.ctex"]
 
 [params]
 

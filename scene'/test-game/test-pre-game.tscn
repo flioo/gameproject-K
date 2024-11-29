@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://c5or8k8dja0qg"]
 
-[ext_resource type="Texture2D" uid="uid://c4av3gq44sb0m" path="res://assets/pixelroma/enviroment/grassblock.png" id="1_w11gb"]
-[ext_resource type="Texture2D" uid="uid://dwhs70cldmv12" path="res://assets/pixelroma/enviroment/path.png" id="2_h8dfa"]
+[ext_resource type="Texture2D" uid="uid://c4av3gq44sb0m" path="res://assets/pixelorama/enviroment/grassblock.png" id="1_w11gb"]
+[ext_resource type="Texture2D" uid="uid://dwhs70cldmv12" path="res://assets/pixelorama/enviroment/path.png" id="2_h8dfa"]
 [ext_resource type="PackedScene" uid="uid://dtxw0vpoo4vmp" path="res://scene'/player.tscn" id="2_wxtlf"]
-[ext_resource type="Texture2D" uid="uid://0gq0k6iwrxtw" path="res://assets/pixelroma/enviroment/tree.png" id="3_f3qv8"]
+[ext_resource type="Texture2D" uid="uid://0gq0k6iwrxtw" path="res://assets/pixelorama/enviroment/tree.png" id="3_f3qv8"]
 
 [node name="Game" type="Node2D"]
 

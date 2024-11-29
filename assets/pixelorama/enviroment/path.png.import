@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4av3gq44sb0m"
-path="res://.godot/imported/grassblock.png-6729319461a25a342f7df7bd7a93fd83.ctex"
+uid="uid://dwhs70cldmv12"
+path="res://.godot/imported/path.png-b62fabee71a68fbf5902b501e66581d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pixelroma/enviroment/grassblock.png"
-dest_files=["res://.godot/imported/grassblock.png-6729319461a25a342f7df7bd7a93fd83.ctex"]
+source_file="res://assets/pixelorama/enviroment/path.png"
+dest_files=["res://.godot/imported/path.png-b62fabee71a68fbf5902b501e66581d2.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwhs70cldmv12"
-path="res://.godot/imported/path.png-55f186590d617ffaf2e07a8b6fc18b70.ctex"
+uid="uid://0gq0k6iwrxtw"
+path="res://.godot/imported/tree.png-e451a2c66e330c91fb6ec1d3c3b5936c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pixelroma/enviroment/path.png"
-dest_files=["res://.godot/imported/path.png-55f186590d617ffaf2e07a8b6fc18b70.ctex"]
+source_file="res://assets/pixelorama/enviroment/tree.png"
+dest_files=["res://.godot/imported/tree.png-e451a2c66e330c91fb6ec1d3c3b5936c.ctex"]
 
 [params]
 

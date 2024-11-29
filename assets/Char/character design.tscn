@@ -1,19 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://b753xqlvycg8j"]
+[gd_scene load_steps=2 format=3 uid="uid://b753xqlvycg8j"]
 
-[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="1_ujtja"]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_tb55n"]
+[ext_resource type="PackedScene" uid="uid://dtxw0vpoo4vmp" path="res://assets/player.tscn" id="1_brhtv"]
 
 [node name="model" type="Node2D"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-scale = Vector2(10, 10)
-shape = SubResource("CircleShape2D_tb55n")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(11, -9)
-texture = ExtResource("1_ujtja")
-hframes = 16
-vframes = 3
+[node name="player" parent="." instance=ExtResource("1_brhtv")]
+scale = Vector2(0.960954, 0.98367)

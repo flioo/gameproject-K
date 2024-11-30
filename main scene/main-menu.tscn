@@ -12,15 +12,24 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_o5s0a")
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Bg-mainmenu" type="Sprite2D" parent="MarginContainer"]
+[node name="Bg-mainmenu" type="Sprite2D" parent="."]
 position = Vector2(574.5, 323.5)
 scale = Vector2(0.604688, 0.615741)
 texture = ExtResource("1_cq4ke")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -35.0
+offset_top = -248.0
+offset_right = 85.0
+offset_bottom = -147.0
+grow_horizontal = 2
+grow_vertical = 0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2

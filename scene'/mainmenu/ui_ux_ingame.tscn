@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj78tcrml7erw"]
+
+[ext_resource type="Script" path="res://scene'/mainmenu/ui_ux_ingame.gd" id="1_urb8r"]
+
+[node name="ui-ux-ingame" type="Control"]
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+grow_horizontal = 2
+script = ExtResource("1_urb8r")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Back-in-game" type="Button" parent="MarginContainer"]
+layout_mode = 2
+text = "Main Menu"
+
+[connection signal="pressed" from="MarginContainer/Back-in-game" to="." method="_on_backingame_pressed"]

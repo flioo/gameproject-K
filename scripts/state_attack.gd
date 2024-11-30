@@ -12,7 +12,8 @@ func Enter() -> void :
 	attacking = true
 	pass
 func Exit() -> void :
-	
+	animation_player.animation_finished.disconnect(EndAttack)
+	attacking = false
 	pass
 func process(_delta: float) -> State:
 	

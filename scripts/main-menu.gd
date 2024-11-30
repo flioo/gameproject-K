@@ -5,7 +5,7 @@ func _on_play_pressed() -> void:
 
 
 func _on_settings_pressed() -> void:
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://scene'/mainmenu/option-menu.tscn")
 
 
 func _on_about_us_pressed() -> void:

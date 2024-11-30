@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0gq0k6iwrxtw"
-path="res://.godot/imported/tree.png-e451a2c66e330c91fb6ec1d3c3b5936c.ctex"
+uid="uid://c8wfng1yx1lyd"
+path="res://.godot/imported/chest-texture.png-05f948a15bdb95b1771c6eeeea986742.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pixelorama/enviroment/tree.png"
-dest_files=["res://.godot/imported/tree.png-e451a2c66e330c91fb6ec1d3c3b5936c.ctex"]
+source_file="res://assets/pixelorama/usable item/chest-texture.png"
+dest_files=["res://.godot/imported/chest-texture.png-05f948a15bdb95b1771c6eeeea986742.ctex"]
 
 [params]
 

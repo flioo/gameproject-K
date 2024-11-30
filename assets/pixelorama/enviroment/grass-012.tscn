@@ -1,7 +1,6 @@
 [gd_scene load_steps=4 format=4 uid="uid://xmr7k50bl6tc"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dvq4b"]
-load_path = "res://.godot/imported/Grass-01 (1).png-f99b4ec6bf1bbbeefe85a7e7baa797a6.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mtf3h"]
 texture = SubResource("CompressedTexture2D_dvq4b")

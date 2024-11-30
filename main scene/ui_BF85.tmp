@@ -1,0 +1,44 @@
+[gd_scene load_steps=3 format=3 uid="uid://0tmk0etw3b5t"]
+
+[ext_resource type="Texture2D" uid="uid://d1ur1406371s8" path="res://assets/ui_ux/BG/bg-mainmenu.png" id="1_cq4ke"]
+[ext_resource type="Script" path="res://main scene/main-menu.gd" id="1_o5s0a"]
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_o5s0a")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Bg-mainmenu" type="Sprite2D" parent="MarginContainer"]
+position = Vector2(574.5, 323.5)
+scale = Vector2(0.604688, 0.615741)
+texture = ExtResource("1_cq4ke")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Play" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Play"
+
+[node name="Settings" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Settings"
+
+[node name="AboutUS" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+text = "About us
+"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/AboutUS" to="." method="_on_about_us_pressed"]

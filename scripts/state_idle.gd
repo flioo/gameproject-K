@@ -1,6 +1,6 @@
 class_name State_idle extends State
 @onready var walk :State=$"../walk"
-@onready var attack : State = $"../attack"
+
 
 
 
@@ -20,6 +20,4 @@ func process(_delta: float) -> State:
 func Physics(_delta: float) -> State:
 	return null
 func HandleInput(_event: InputEvent) -> State:
-	if _event.is_action_pressed("attack"):
-		return attack
 	return null

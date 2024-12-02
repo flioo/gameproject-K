@@ -23,7 +23,6 @@ project/assembly_name="gameproject-K"
 
 folder_colors={
 "res://assets/": "green",
-"res://main scene/": "yellow",
 "res://scene'/": "blue",
 "res://scripts/": "gray"
 }

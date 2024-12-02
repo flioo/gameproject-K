@@ -8,6 +8,7 @@ bg_color = Color(0.470588, 0.701961, 0.807843, 1)
 border_width_left = 3
 border_width_top = 3
 border_width_right = 3
+border_width_bottom = 3
 border_color = Color(0.788235, 0.901961, 0.941176, 1)
 corner_radius_top_left = 7
 corner_radius_top_right = 7
@@ -71,21 +72,52 @@ expand_mode = 1
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.111
-anchor_top = 0.006
-anchor_right = 0.994
-anchor_bottom = 0.987
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 180.0
+offset_top = 50.0
+offset_right = -472.0
+offset_bottom = -298.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_bdgw2")
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 1
+[node name="Graphic_Control Box" type="VBoxContainer" parent="Panel"]
+layout_mode = 0
 offset_left = 5.0
 offset_top = 5.0
-offset_right = 125.0
-offset_bottom = 121.0
+offset_right = 111.0
+offset_bottom = 302.0
+scale = Vector2(0.95, 0.95)
+
+[node name="Texture" type="Button" parent="Panel/Graphic_Control Box"]
+layout_mode = 2
+text = "Texture"
+
+[node name="PoV" type="Button" parent="Panel/Graphic_Control Box"]
+layout_mode = 2
+text = "PoV"
+
+[node name="on_off settings" type="VBoxContainer" parent="Panel"]
+layout_mode = 0
+offset_left = 347.0
+offset_right = 497.0
+offset_bottom = 297.0
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -526.0
+offset_top = -274.0
+offset_right = -406.0
+offset_bottom = -158.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2

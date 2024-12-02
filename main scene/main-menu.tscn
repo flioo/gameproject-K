@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://0tmk0etw3b5t"]
 
-[ext_resource type="Texture2D" uid="uid://d1ur1406371s8" path="res://assets/ui_ux/BG/bg-mainmenu.png" id="1_cq4ke"]
+[ext_resource type="Texture2D" uid="uid://ciatmir5a21bg" path="res://assets/ui_ux/BG/bg-mainmenu.png" id="1_cq4ke"]
 [ext_resource type="Script" path="res://scripts/main-menu.gd" id="1_o5s0a"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_02dos"]
@@ -48,7 +48,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_o5s0a")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="bg-main" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

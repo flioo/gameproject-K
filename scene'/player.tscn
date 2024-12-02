@@ -1,7 +1,7 @@
 [gd_scene load_steps=19 format=3 uid="uid://dtxw0vpoo4vmp"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_l0wf3"]
-[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="2_4indl"]
+[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/char/PlayerSprite02.png" id="2_4indl"]
 [ext_resource type="Script" path="res://scripts/player_state_machine.gd" id="3_gy8ag"]
 [ext_resource type="Script" path="res://scripts/state_idle.gd" id="4_wt51r"]
 [ext_resource type="Script" path="res://scripts/state_walk.gd" id="5_va5ut"]
@@ -192,7 +192,7 @@ radius = 21.5407
 [node name="player" type="CharacterBody2D"]
 position = Vector2(609, 312)
 disable_mode = 2
-collision_mask = 16
+collision_mask = 18
 motion_mode = 1
 wall_min_slide_angle = 0.174533
 script = ExtResource("1_l0wf3")

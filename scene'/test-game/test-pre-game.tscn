@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://baswjct0upehr" path="res://assets/pixelorama/enviroment/scene/pohon.tscn" id="1_084rc"]
 [ext_resource type="PackedScene" uid="uid://b3g6qh33ixg2x" path="res://assets/pixelorama/enviroment/scene/jalan.path.tscn" id="2_vlnc0"]
 [ext_resource type="PackedScene" uid="uid://dtxw0vpoo4vmp" path="res://scene'/player.tscn" id="2_wxtlf"]
-[ext_resource type="PackedScene" uid="uid://ciq8m0l8me7wa" path="res://assets/pixelorama/enviroment/wall.tscn" id="2_yemsv"]
+[ext_resource type="PackedScene" uid="uid://ciq8m0l8me7wa" path="res://assets/pixelorama/enviroment/scene/wall.tscn" id="2_yemsv"]
 [ext_resource type="PackedScene" uid="uid://cjh7r0g7lfmum" path="res://assets/pixelorama/enviroment/scene/bunga.tscn" id="3_m1crg"]
 [ext_resource type="PackedScene" uid="uid://bkefvinx10aky" path="res://assets/pixelorama/enviroment/scene/rumput.tscn" id="3_vathh"]
 

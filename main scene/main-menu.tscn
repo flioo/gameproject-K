@@ -1,7 +1,43 @@
-[gd_scene load_steps=3 format=3 uid="uid://0tmk0etw3b5t"]
+[gd_scene load_steps=6 format=3 uid="uid://0tmk0etw3b5t"]
 
 [ext_resource type="Texture2D" uid="uid://d1ur1406371s8" path="res://assets/ui_ux/BG/bg-mainmenu.png" id="1_cq4ke"]
 [ext_resource type="Script" path="res://scripts/main-menu.gd" id="1_o5s0a"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_02dos"]
+bg_color = Color(0.348224, 0.576215, 0.678313, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.630737, 0.824591, 0.889931, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vfijy"]
+bg_color = Color(0.34902, 0.576471, 0.678431, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.631373, 0.823529, 0.890196, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tayia"]
+bg_color = Color(0.470588, 0.701961, 0.807843, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.788235, 0.901961, 0.941176, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
 
 [node name="menu" type="Control"]
 layout_mode = 3
@@ -12,10 +48,15 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_o5s0a")
 
-[node name="Bg-mainmenu" type="Sprite2D" parent="."]
-position = Vector2(574.5, 323.5)
-scale = Vector2(0.604688, 0.615741)
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("1_cq4ke")
+expand_mode = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -36,15 +77,27 @@ layout_mode = 2
 
 [node name="Play" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/hover = SubResource("StyleBoxFlat_02dos")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vfijy")
+theme_override_styles/normal = SubResource("StyleBoxFlat_tayia")
 text = "Play"
 
 [node name="Settings" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/hover = SubResource("StyleBoxFlat_02dos")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vfijy")
+theme_override_styles/normal = SubResource("StyleBoxFlat_tayia")
 text = "Settings"
 
 [node name="Exit" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 4
+theme_override_font_sizes/font_size = 20
+theme_override_styles/hover = SubResource("StyleBoxFlat_02dos")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vfijy")
+theme_override_styles/normal = SubResource("StyleBoxFlat_tayia")
 text = "Exit
 "
 

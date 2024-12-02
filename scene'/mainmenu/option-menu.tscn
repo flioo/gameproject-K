@@ -1,7 +1,54 @@
-[gd_scene load_steps=3 format=3 uid="uid://bm811r4bxetc1"]
+[gd_scene load_steps=7 format=3 uid="uid://bm811r4bxetc1"]
 
 [ext_resource type="Script" path="res://scripts/option_menu.gd" id="1_vxv0x"]
 [ext_resource type="Texture2D" uid="uid://d1ur1406371s8" path="res://assets/ui_ux/BG/bg-mainmenu.png" id="2_yt1l7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bdgw2"]
+bg_color = Color(0.470588, 0.701961, 0.807843, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_color = Color(0.788235, 0.901961, 0.941176, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tcubi"]
+bg_color = Color(0.34902, 0.576471, 0.678431, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.631373, 0.823529, 0.890196, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0q611"]
+bg_color = Color(0.34902, 0.576471, 0.678431, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.631373, 0.823529, 0.890196, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tfndg"]
+bg_color = Color(0.470588, 0.701961, 0.807843, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.788235, 0.901961, 0.941176, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
 
 [node name="menu" type="Control"]
 layout_mode = 3
@@ -12,30 +59,60 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_vxv0x")
 
-[node name="Bg-mainmenu" type="Sprite2D" parent="."]
-position = Vector2(574.5, 323.5)
-scale = Vector2(0.604688, 0.615741)
+[node name="Bg-mainmenu" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("2_yt1l7")
+expand_mode = 1
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.111
+anchor_top = 0.006
+anchor_right = 0.994
+anchor_bottom = 0.987
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_bdgw2")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
-offset_right = 120.0
-offset_bottom = 101.0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 125.0
+offset_bottom = 121.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
 
 [node name="Control" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/hover = SubResource("StyleBoxFlat_tcubi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0q611")
+theme_override_styles/normal = SubResource("StyleBoxFlat_tfndg")
 text = "Control
 "
 
 [node name="Graphic" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/hover = SubResource("StyleBoxFlat_tcubi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0q611")
+theme_override_styles/normal = SubResource("StyleBoxFlat_tfndg")
 text = "Graphic"
 
 [node name="Back" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/hover = SubResource("StyleBoxFlat_tcubi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_0q611")
+theme_override_styles/normal = SubResource("StyleBoxFlat_tfndg")
 text = "Back"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/Back" to="." method="_on_back_pressed"]

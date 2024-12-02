@@ -4,19 +4,27 @@
 
 [node name="ui-ux-ingame" type="Control"]
 layout_mode = 3
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-grow_horizontal = 2
+anchors_preset = 0
 script = ExtResource("1_urb8r")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 20.0
+offset_top = 22.0
+offset_right = 116.0
+offset_bottom = 53.0
+size_flags_horizontal = 0
+metadata/_edit_use_anchors_ = true
 
-[node name="Back-in-game" type="Button" parent="MarginContainer"]
-layout_mode = 2
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(577, 322)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Camera2D"]
+
+[node name="Back-in-game" type="Button" parent="Camera2D/CanvasLayer"]
+offset_left = 20.0
+offset_top = 22.0
+offset_right = 116.0
+offset_bottom = 53.0
 text = "Main Menu"
 
-[connection signal="pressed" from="MarginContainer/Back-in-game" to="." method="_on_backingame_pressed"]
+[connection signal="pressed" from="Camera2D/CanvasLayer/Back-in-game" to="." method="_on_backingame_pressed"]

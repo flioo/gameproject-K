@@ -133,13 +133,13 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_tfndg")
 text = "Control
 "
 
-[node name="Graphic" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="Audio" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 theme_override_styles/hover = SubResource("StyleBoxFlat_tcubi")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_0q611")
 theme_override_styles/normal = SubResource("StyleBoxFlat_tfndg")
-text = "Graphic"
+text = "Audio"
 
 [node name="Back" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2

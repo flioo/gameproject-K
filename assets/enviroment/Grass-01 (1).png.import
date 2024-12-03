@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wgbdhgb6cy1c"
-path="res://.godot/imported/enviroment.png-64bd4d52b6bd30ca7160a3d9945c735c.ctex"
+uid="uid://crcjlwdm1tx3r"
+path="res://.godot/imported/Grass-01 (1).png-77ca3bafdad9ef7ce3dbff5a7e2beddf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pixelorama/enviroment/kelar sebagian/enviroment.png"
-dest_files=["res://.godot/imported/enviroment.png-64bd4d52b6bd30ca7160a3d9945c735c.ctex"]
+source_file="res://assets/enviroment/Grass-01 (1).png"
+dest_files=["res://.godot/imported/Grass-01 (1).png-77ca3bafdad9ef7ce3dbff5a7e2beddf.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wm4yfy5w7rrp"
-path="res://.godot/imported/enviroment.png-eed34ac38519bd90ac331f7b0af5931f.ctex"
+uid="uid://b0gbfkrnykxa1"
+path="res://.godot/imported/asset paketan enviroment.png-133ab484831bb377bd82b3a65008dc28.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pixelorama/enviroment/enviroment.png"
-dest_files=["res://.godot/imported/enviroment.png-eed34ac38519bd90ac331f7b0af5931f.ctex"]
+source_file="res://assets/enviroment/kelar sebagian/asset paketan enviroment.png"
+dest_files=["res://.godot/imported/asset paketan enviroment.png-133ab484831bb377bd82b3a65008dc28.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcxfiulbmtgno"
-path="res://.godot/imported/tree-detailed.png-9c59d9d2b095562c5d4c36fe7ef4ebbd.ctex"
+uid="uid://wm4yfy5w7rrp"
+path="res://.godot/imported/enviroment.png-ed24074e05bc47adf9cebe36ce7d9ca3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pixelorama/enviroment/tree-detailed.png"
-dest_files=["res://.godot/imported/tree-detailed.png-9c59d9d2b095562c5d4c36fe7ef4ebbd.ctex"]
+source_file="res://assets/enviroment/enviroment.png"
+dest_files=["res://.godot/imported/enviroment.png-ed24074e05bc47adf9cebe36ce7d9ca3.ctex"]
 
 [params]
 

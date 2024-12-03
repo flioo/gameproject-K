@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ciatmir5a21bg"
-path="res://.godot/imported/bg-mainmenu.png-769dfab3f2e94b4ce060937b7b53fd56.ctex"
+uid="uid://crcjlwdm1tx3r"
+path="res://.godot/imported/Grass-01 (1).png-1b52ed102b1e27e69c0541c2b004dc89.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui_ux/bg/bg-mainmenu.png"
-dest_files=["res://.godot/imported/bg-mainmenu.png-769dfab3f2e94b4ce060937b7b53fd56.ctex"]
+source_file="res://assets/ui_ux/bg/enviroment/Grass-01 (1).png"
+dest_files=["res://.godot/imported/Grass-01 (1).png-1b52ed102b1e27e69c0541c2b004dc89.ctex"]
 
 [params]
 

@@ -1,9 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://cjh7r0g7lfmum"]
+[gd_scene load_steps=4 format=3 uid="uid://bkefvinx10aky"]
 
-[ext_resource type="Texture2D" uid="uid://wm4yfy5w7rrp" path="res://assets/enviroment/enviroment.png" id="1_xbvpn"]
+[ext_resource type="Texture2D" uid="uid://wm4yfy5w7rrp" path="res://assets/ui_ux/bg/enviroment/enviroment.png" id="1_5fip6"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cwitd"]
-texture = ExtResource("1_xbvpn")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lpb4e"]
+texture = ExtResource("1_5fip6")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -133,9 +133,9 @@ texture = ExtResource("1_xbvpn")
 14:7/0 = 0
 15:7/0 = 0
 
-[sub_resource type="TileSet" id="TileSet_hx8gy"]
-sources/0 = SubResource("TileSetAtlasSource_cwitd")
+[sub_resource type="TileSet" id="TileSet_7ib61"]
+sources/0 = SubResource("TileSetAtlasSource_lpb4e")
 
-[node name="Bunga" type="TileMapLayer"]
+[node name="EnviromentBuatanQuinta" type="TileMapLayer"]
 scale = Vector2(4, 4)
-tile_set = SubResource("TileSet_hx8gy")
+tile_set = SubResource("TileSet_7ib61")

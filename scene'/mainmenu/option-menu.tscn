@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://bm811r4bxetc1"]
 
 [ext_resource type="Script" path="res://scripts/option_menu.gd" id="1_vxv0x"]
-[ext_resource type="Texture2D" uid="uid://ciatmir5a21bg" path="res://assets/ui_ux/BG/bg-mainmenu.png" id="2_yt1l7"]
+[ext_resource type="Texture2D" uid="uid://bea0yosgfamav" path="res://assets/ui_ux/bg/bg.png" id="2_p2hyb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bdgw2"]
 bg_color = Color(0.470588, 0.701961, 0.807843, 1)
@@ -67,7 +67,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_yt1l7")
+texture = ExtResource("2_p2hyb")
 expand_mode = 1
 
 [node name="Panel" type="Panel" parent="."]

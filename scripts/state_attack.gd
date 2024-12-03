@@ -15,7 +15,7 @@ func Enter() -> void :
 	sword_effect.play("Attack_"+player.animDirection())
 	animation_player.animation_finished.connect(EndAttack)
 	audio.stream = Attack_sound
-	audio.pitch_scale = randf_range(1.0 , 1.3)
+	audio.pitch_scale = randf_range(2.0,3.0)
 	audio.play()
 	attacking = true
 	pass

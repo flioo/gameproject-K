@@ -12,7 +12,7 @@ config_version=5
 
 config/name="gameproject-K"
 config/tags=PackedStringArray("priority")
-run/main_scene="res://Main Scene/main-menu.tscn"
+run/main_scene="res://assets/Char/main-menu.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 
 [dotnet]
@@ -59,7 +59,9 @@ attack={
 
 2d_physics/layer_1="Player"
 2d_physics/layer_2="pohon"
+2d_physics/layer_3="Playerhurt"
 2d_physics/layer_5="walls"
+2d_physics/layer_9="enemy"
 
 [rendering]
 

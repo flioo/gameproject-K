@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://dtxw0vpoo4vmp"]
+[gd_scene load_steps=31 format=3 uid="uid://dtxw0vpoo4vmp"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_l0wf3"]
 [ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="2_4indl"]
@@ -9,6 +9,8 @@
 [ext_resource type="Script" path="res://scripts/state_walk.gd" id="5_va5ut"]
 [ext_resource type="Script" path="res://scripts/state_attack.gd" id="6_e6p26"]
 [ext_resource type="AudioStream" uid="uid://dhtpachbkbj6a" path="res://assets/Char/audio.mp3" id="8_nejwa"]
+[ext_resource type="PackedScene" uid="uid://c6m280xd1lxpg" path="res://GeneralNodes/hurtbox/hurtbox.tscn" id="10_qo18f"]
+[ext_resource type="Script" path="res://scripts/playerinteractionhost.gd" id="10_xbwrp"]
 
 [sub_resource type="Animation" id="Animation_dubto"]
 length = 0.001
@@ -424,6 +426,9 @@ _data = {
 "RESET": SubResource("Animation_j3yhp")
 }
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_e4mxu"]
+radius = 25.0
+
 [node name="player" type="CharacterBody2D"]
 position = Vector2(609, 312)
 disable_mode = 2
@@ -456,7 +461,7 @@ vframes = 3
 modulate = Color(0.0430392, 0.0430392, 0.0430392, 1)
 show_behind_parent = true
 position = Vector2(-0.581818, 20.5283)
-scale = Vector2(0.5, 0.5)
+scale = Vector2(0.507823, 0.5)
 texture = ExtResource("3_6uvk7")
 
 [node name="attackeffect" type="Sprite2D" parent="Sprite2D"]
@@ -486,3 +491,16 @@ Attack_sound = ExtResource("8_nejwa")
 [node name="audio" type="Node2D" parent="."]
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="audio"]
+
+[node name="interactions" type="Node2D" parent="."]
+position = Vector2(-2, 24)
+script = ExtResource("10_xbwrp")
+
+[node name="Hurtbox" parent="interactions" instance=ExtResource("10_qo18f")]
+position = Vector2(-1, 8)
+collision_mask = 256
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactions/Hurtbox"]
+position = Vector2(3, 22)
+shape = SubResource("CircleShape2D_e4mxu")
+debug_color = Color(0.910805, 0.274974, 0.291734, 0.42)

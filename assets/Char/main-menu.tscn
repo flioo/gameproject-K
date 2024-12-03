@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://0tmk0etw3b5t"]
 
-[ext_resource type="Texture2D" uid="uid://ciatmir5a21bg" path="res://assets/ui_ux/BG/bg-mainmenu.png" id="1_cq4ke"]
-[ext_resource type="Script" path="res://scripts/main-menu.gd" id="1_o5s0a"]
+[ext_resource type="Script" path="res://scripts/main-menu.gd" id="1_yght3"]
+[ext_resource type="Texture2D" uid="uid://ciatmir5a21bg" path="res://assets/ui_ux/BG/bg-mainmenu.png" id="2_jjxa3"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_02dos"]
 bg_color = Color(0.348224, 0.576215, 0.678313, 1)
@@ -46,7 +46,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_o5s0a")
+script = ExtResource("1_yght3")
 
 [node name="bg-main" type="TextureRect" parent="."]
 layout_mode = 1
@@ -55,7 +55,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_cq4ke")
+texture = ExtResource("2_jjxa3")
 expand_mode = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="."]

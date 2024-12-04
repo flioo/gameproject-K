@@ -57,7 +57,7 @@ attack={
 
 [layer_names]
 
-2d_physics/layer_1="Player"
+2d_physics/layer_1="player"
 2d_physics/layer_2="pohon"
 2d_physics/layer_3="Playerhurt"
 2d_physics/layer_5="walls"

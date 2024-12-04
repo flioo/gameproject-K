@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0gbfkrnykxa1"
-path="res://.godot/imported/asset paketan enviroment.png-ef5eefe6e323572a1c77a6d141c4d434.ctex"
+uid="uid://dcxfiulbmtgno"
+path="res://.godot/imported/tree-detailed.png-3d4033899a49345d015953b8b80d5700.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui_ux/bg/enviroment/kelar sebagian/asset paketan enviroment.png"
-dest_files=["res://.godot/imported/asset paketan enviroment.png-ef5eefe6e323572a1c77a6d141c4d434.ctex"]
+source_file="res://assets/enviroment/tree-detailed.png"
+dest_files=["res://.godot/imported/tree-detailed.png-3d4033899a49345d015953b8b80d5700.ctex"]
 
 [params]
 

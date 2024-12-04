@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wgbdhgb6cy1c"
-path="res://.godot/imported/enviroment.png-45f0371ea1c3ac5eadb68255d547640e.ctex"
+uid="uid://b0gbfkrnykxa1"
+path="res://.godot/imported/asset paketan enviroment.png-133ab484831bb377bd82b3a65008dc28.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui_ux/bg/enviroment/kelar sebagian/enviroment.png"
-dest_files=["res://.godot/imported/enviroment.png-45f0371ea1c3ac5eadb68255d547640e.ctex"]
+source_file="res://assets/enviroment/kelar sebagian/asset paketan enviroment.png"
+dest_files=["res://.godot/imported/asset paketan enviroment.png-133ab484831bb377bd82b3a65008dc28.ctex"]
 
 [params]
 

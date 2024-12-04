@@ -1,55 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://bm811r4bxetc1"]
+[gd_scene load_steps=5 format=3 uid="uid://bm811r4bxetc1"]
 
 [ext_resource type="Script" path="res://scripts/option_menu.gd" id="1_vxv0x"]
 [ext_resource type="Texture2D" uid="uid://ck1b8nq1uni21" path="res://assets/ui_ux/bg/bg1.png" id="2_oqij6"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bdgw2"]
-bg_color = Color(0.470588, 0.701961, 0.807843, 1)
-border_width_left = 3
-border_width_top = 3
-border_width_right = 3
-border_width_bottom = 3
-border_color = Color(0.788235, 0.901961, 0.941176, 1)
-corner_radius_top_left = 7
-corner_radius_top_right = 7
-corner_radius_bottom_right = 7
-corner_radius_bottom_left = 7
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tcubi"]
-bg_color = Color(0.34902, 0.576471, 0.678431, 1)
-border_width_left = 3
-border_width_top = 3
-border_width_right = 3
-border_width_bottom = 3
-border_color = Color(0.631373, 0.823529, 0.890196, 1)
-corner_radius_top_left = 7
-corner_radius_top_right = 7
-corner_radius_bottom_right = 7
-corner_radius_bottom_left = 7
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0q611"]
-bg_color = Color(0.34902, 0.576471, 0.678431, 1)
-border_width_left = 3
-border_width_top = 3
-border_width_right = 3
-border_width_bottom = 3
-border_color = Color(0.631373, 0.823529, 0.890196, 1)
-corner_radius_top_left = 7
-corner_radius_top_right = 7
-corner_radius_bottom_right = 7
-corner_radius_bottom_left = 7
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tfndg"]
-bg_color = Color(0.470588, 0.701961, 0.807843, 1)
-border_width_left = 3
-border_width_top = 3
-border_width_right = 3
-border_width_bottom = 3
-border_color = Color(0.788235, 0.901961, 0.941176, 1)
-corner_radius_top_left = 7
-corner_radius_top_right = 7
-corner_radius_bottom_right = 7
-corner_radius_bottom_left = 7
+[ext_resource type="Theme" uid="uid://dj4xuuhs0me40" path="res://assets/ui_ux/button/button all-theme.tres" id="3_6fhh4"]
+[ext_resource type="Texture2D" uid="uid://dvgq7af2b47qb" path="res://assets/ui_ux/button/bg-res.png" id="4_f1pj5"]
 
 [node name="menu" type="Control"]
 layout_mode = 3
@@ -70,83 +24,48 @@ grow_vertical = 2
 texture = ExtResource("2_oqij6")
 expand_mode = 1
 
-[node name="Panel" type="Panel" parent="."]
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 1
+offset_left = 28.0
+offset_top = 22.0
+offset_right = 125.0
+offset_bottom = 103.0
+theme = ExtResource("3_6fhh4")
+texture = ExtResource("4_f1pj5")
+patch_margin_left = 3
+patch_margin_top = 4
+patch_margin_right = 5
+patch_margin_bottom = 5
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -226.0
-offset_top = -224.0
-offset_right = 274.0
-offset_bottom = 76.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_bdgw2")
-
-[node name="Graphic_Control Box" type="VBoxContainer" parent="Panel"]
-layout_mode = 0
-offset_left = 5.0
-offset_top = 5.0
-offset_right = 111.0
-offset_bottom = 302.0
-scale = Vector2(0.95, 0.95)
-
-[node name="Texture" type="Button" parent="Panel/Graphic_Control Box"]
-layout_mode = 2
-text = "Texture"
-
-[node name="PoV" type="Button" parent="Panel/Graphic_Control Box"]
-layout_mode = 2
-text = "PoV"
-
-[node name="on_off settings" type="VBoxContainer" parent="Panel"]
-layout_mode = 0
-offset_left = 347.0
-offset_right = 497.0
-offset_bottom = 297.0
-
-[node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -351.0
-offset_top = -223.0
-offset_right = -231.0
-offset_bottom = -107.0
+offset_left = -37.0
+offset_top = -35.0
+offset_right = 37.0
+offset_bottom = 35.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+[node name="Audio" type="Button" parent="NinePatchRect/VBoxContainer"]
 layout_mode = 2
-
-[node name="Control" type="Button" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 20
-theme_override_styles/hover = SubResource("StyleBoxFlat_tcubi")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_0q611")
-theme_override_styles/normal = SubResource("StyleBoxFlat_tfndg")
-text = "Control
-"
-
-[node name="Audio" type="Button" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 20
-theme_override_styles/hover = SubResource("StyleBoxFlat_tcubi")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_0q611")
-theme_override_styles/normal = SubResource("StyleBoxFlat_tfndg")
 text = "Audio"
 
-[node name="Back" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="Back" type="Button" parent="NinePatchRect/VBoxContainer"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 20
-theme_override_styles/hover = SubResource("StyleBoxFlat_tcubi")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_0q611")
-theme_override_styles/normal = SubResource("StyleBoxFlat_tfndg")
 text = "Back"
 
-[connection signal="pressed" from="MarginContainer/VBoxContainer/Back" to="." method="_on_back_pressed"]
+[node name="NinePatchRect2" type="NinePatchRect" parent="."]
+layout_mode = 1
+offset_left = 130.0
+offset_top = 22.0
+offset_right = 433.0
+offset_bottom = 325.0
+texture = ExtResource("4_f1pj5")
+region_rect = Rect2(0, 0, 128.938, 128)

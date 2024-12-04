@@ -1,13 +1,14 @@
 class_name State_attack extends State
+var attacking:bool =false
 @export var Attack_sound:AudioStream
-@export_range(1.20,0.5) var decelarate_speed :float = 5.0
+@export_range(1,20,0.5) var decelarate_speed :float = 5.0
 @onready var walk :State=$"../walk"
 @onready var animation_player : AnimationPlayer = $"../../AnimationPlayer"
 @onready var  idle : State=$"../idle"
 @onready var sword_effect : AnimationPlayer =$"../../Sprite2D/attackeffect/AnimationPlayer"
 @onready var audio : AudioStreamPlayer2D =$"../../audio/AudioStreamPlayer2D"
-@onready var hurtbox : HurtBox = $"../../interactions/Hurtbox"
-var attacking:bool =false
+@onready var hurtbox : HurtBox = $"../../Sprite2D/AttackHurtBox"
+
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b16him4k51l4w"
-path="res://.godot/imported/Shadow.png-4cc4567a78fd23f3c1eb40c57297eda2.ctex"
+uid="uid://ksb3mt8reh8j"
+path="res://.godot/imported/gui-health.png-1a467fa3c6f5567a64eade3a8d04508f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Char/Shadow.png"
-dest_files=["res://.godot/imported/Shadow.png-4cc4567a78fd23f3c1eb40c57297eda2.ctex"]
+source_file="res://assets/Fight/gui-health.png"
+dest_files=["res://.godot/imported/gui-health.png-1a467fa3c6f5567a64eade3a8d04508f.ctex"]
 
 [params]
 

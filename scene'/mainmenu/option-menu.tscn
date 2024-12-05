@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scripts/option_menu.gd" id="1_vxv0x"]
 [ext_resource type="Texture2D" uid="uid://ck1b8nq1uni21" path="res://assets/ui_ux/bg/bg1.png" id="2_oqij6"]
 [ext_resource type="Theme" uid="uid://dothfkkqy84u6" path="res://assets/ui_ux/button/button all-theme.tres" id="3_6fhh4"]
-[ext_resource type="Texture2D" uid="uid://dvgq7af2b47qb" path="res://assets/ui_ux/button/bg-res.png" id="4_f1pj5"]
+[ext_resource type="Texture2D" uid="uid://0woipuw3f8o1" path="res://assets/ui_ux/button/bg-slots.png" id="4_rm3lf"]
 
 [node name="menu" type="Control"]
 layout_mode = 3
@@ -31,7 +31,7 @@ offset_top = 22.0
 offset_right = 125.0
 offset_bottom = 103.0
 theme = ExtResource("3_6fhh4")
-texture = ExtResource("4_f1pj5")
+texture = ExtResource("4_rm3lf")
 patch_margin_left = 3
 patch_margin_top = 4
 patch_margin_right = 5
@@ -67,7 +67,7 @@ offset_left = 130.0
 offset_top = 22.0
 offset_right = 433.0
 offset_bottom = 325.0
-texture = ExtResource("4_f1pj5")
+texture = ExtResource("4_rm3lf")
 region_rect = Rect2(0, 0, 128.938, 128)
 
 [connection signal="pressed" from="NinePatchRect/VBoxContainer/Back" to="." method="_on_back_pressed"]

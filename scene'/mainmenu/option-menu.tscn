@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/option_menu.gd" id="1_vxv0x"]
 [ext_resource type="Texture2D" uid="uid://ck1b8nq1uni21" path="res://assets/ui_ux/bg/bg1.png" id="2_oqij6"]
-[ext_resource type="Theme" uid="uid://dj4xuuhs0me40" path="res://assets/ui_ux/button/button all-theme.tres" id="3_6fhh4"]
+[ext_resource type="Theme" uid="uid://dothfkkqy84u6" path="res://assets/ui_ux/button/button all-theme.tres" id="3_6fhh4"]
 [ext_resource type="Texture2D" uid="uid://dvgq7af2b47qb" path="res://assets/ui_ux/button/bg-res.png" id="4_f1pj5"]
 
 [node name="menu" type="Control"]
@@ -69,3 +69,5 @@ offset_right = 433.0
 offset_bottom = 325.0
 texture = ExtResource("4_f1pj5")
 region_rect = Rect2(0, 0, 128.938, 128)
+
+[connection signal="pressed" from="NinePatchRect/VBoxContainer/Back" to="." method="_on_back_pressed"]

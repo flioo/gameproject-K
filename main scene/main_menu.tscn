@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dgjcwf3up3qn6"]
 
 [ext_resource type="Script" path="res://scripts/main-menu.gd" id="1_e83fs"]
-[ext_resource type="Texture2D" uid="uid://ck1b8nq1uni21" path="res://assets/ui_ux/BG/bg1.png" id="2_a6rj8"]
+[ext_resource type="Texture2D" uid="uid://ppcx4is3upe1" path="res://assets/ui_ux/bg/bg1.png" id="2_a6rj8"]
 [ext_resource type="Theme" uid="uid://dothfkkqy84u6" path="res://assets/ui_ux/button/button all-theme.tres" id="3_ync3l"]
 
 [node name="main-menu" type="Control"]
@@ -29,16 +29,16 @@ anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
 offset_left = 25.0
-offset_top = -32.0
+offset_top = -124.0
 offset_right = 139.0
-offset_bottom = 59.0
+offset_bottom = -33.0
 grow_vertical = 2
 theme = ExtResource("3_ync3l")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect"]
 layout_mode = 2
-offset_right = 104.0
-offset_bottom = 89.0
+offset_right = 110.0
+offset_bottom = 107.0
 
 [node name="play" type="Button" parent="NinePatchRect/VBoxContainer"]
 layout_mode = 2

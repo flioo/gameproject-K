@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bj78tcrml7erw"]
+[gd_scene load_steps=5 format=3 uid="uid://bj78tcrml7erw"]
 
 [ext_resource type="Script" path="res://scene'/mainmenu/ui_ux_ingame.gd" id="1_urb8r"]
 [ext_resource type="Theme" uid="uid://dothfkkqy84u6" path="res://assets/ui_ux/button/button all-theme.tres" id="2_yjbas"]
 [ext_resource type="Texture2D" uid="uid://0woipuw3f8o1" path="res://assets/ui_ux/button/bg-slots.png" id="3_qoqyx"]
+[ext_resource type="Texture2D" uid="uid://dk7ugk8sutsaa" path="res://assets/ui_ux/healt-bar/health-bar.png" id="4_hvpnq"]
 
 [node name="ui-ux-ingame" type="Control"]
 layout_mode = 3
@@ -38,6 +39,20 @@ axis_stretch_horizontal = 2
 axis_stretch_vertical = 2
 
 [node name="slots" type="HBoxContainer" parent="CanvasLayer/NinePatchRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="CanvasLayer"]
+offset_left = 936.0
+offset_right = 1152.0
+offset_bottom = 61.0
+texture = ExtResource("4_hvpnq")
+
+[node name="healt-bar" type="HBoxContainer" parent="CanvasLayer/NinePatchRect2"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

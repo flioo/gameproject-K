@@ -1,15 +1,15 @@
 [gd_scene load_steps=31 format=3 uid="uid://dtxw0vpoo4vmp"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_4fa26"]
-[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/char/PlayerSprite02.png" id="2_d0stl"]
-[ext_resource type="Texture2D" uid="uid://b16him4k51l4w" path="res://assets/char/Shadow.png" id="3_4shgd"]
-[ext_resource type="Texture2D" uid="uid://bifgxv8fhm68y" path="res://assets/char/AttackSprite01.png" id="4_ihd1e"]
+[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="2_d0stl"]
+[ext_resource type="Texture2D" uid="uid://b16him4k51l4w" path="res://assets/Char/Shadow.png" id="3_4shgd"]
+[ext_resource type="Texture2D" uid="uid://bifgxv8fhm68y" path="res://assets/Char/AttackSprite01.png" id="4_ihd1e"]
 [ext_resource type="PackedScene" uid="uid://c6m280xd1lxpg" path="res://GeneralNodes/hurtbox/hurtbox.tscn" id="5_52kvv"]
 [ext_resource type="Script" path="res://scripts/player_state_machine.gd" id="6_wibmk"]
 [ext_resource type="Script" path="res://scripts/state_idle.gd" id="7_mhf7d"]
 [ext_resource type="Script" path="res://scripts/state_walk.gd" id="8_sflng"]
 [ext_resource type="Script" path="res://scripts/state_attack.gd" id="9_lpirg"]
-[ext_resource type="AudioStream" uid="uid://dhtpachbkbj6a" path="res://assets/char/audio.mp3" id="10_urscm"]
+[ext_resource type="AudioStream" uid="uid://dhtpachbkbj6a" path="res://assets/Char/audio.mp3" id="10_urscm"]
 [ext_resource type="Script" path="res://scripts/playerinteractionhost.gd" id="11_khcxt"]
 
 [sub_resource type="Animation" id="Animation_dubto"]
@@ -493,8 +493,8 @@ libraries = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 18)
-scale = Vector2(0.954545, 1)
+position = Vector2(0, 11)
+scale = Vector2(0.669, 0.7)
 shape = SubResource("CircleShape2D_tb55n")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

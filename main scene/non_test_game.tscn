@@ -1,6 +1,6 @@
 [gd_scene load_steps=14 format=4 uid="uid://ev2befn32o5y"]
 
-[ext_resource type="PackedScene" uid="uid://dtxw0vpoo4vmp" path="res://main scene/player.tscn" id="1_dr4a6"]
+[ext_resource type="PackedScene" uid="uid://dtxw0vpoo4vmp" path="res://Main Scene/player.tscn" id="1_dr4a6"]
 [ext_resource type="Texture2D" uid="uid://wm4yfy5w7rrp" path="res://assets/enviroment/enviroment.png" id="1_dr6gd"]
 [ext_resource type="PackedScene" uid="uid://bj78tcrml7erw" path="res://GeneralNodes/uiux/ui_ux_ingame.tscn" id="1_ud00c"]
 [ext_resource type="Texture2D" uid="uid://dcxfiulbmtgno" path="res://assets/enviroment/tree-detailed.png" id="2_6i6tm"]

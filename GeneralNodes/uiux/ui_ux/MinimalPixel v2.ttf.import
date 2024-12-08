@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://btmavrk7quiop"
-path="res://.godot/imported/1_Minecraft-Regular.otf-e65921b3f69170065f75960cf4cd17a8.fontdata"
+uid="uid://bkh1w76g1fkhi"
+path="res://.godot/imported/MinimalPixel v2.ttf-f71c3ab05ef9ccb03d77d0a9751bd98f.fontdata"
 
 [deps]
 
-source_file="res://assets/ui_ux/1_Minecraft-Regular.otf"
-dest_files=["res://.godot/imported/1_Minecraft-Regular.otf-e65921b3f69170065f75960cf4cd17a8.fontdata"]
+source_file="res://GeneralNodes/uiux/ui_ux/MinimalPixel v2.ttf"
+dest_files=["res://.godot/imported/MinimalPixel v2.ttf-f71c3ab05ef9ccb03d77d0a9751bd98f.fontdata"]
 
 [params]
 

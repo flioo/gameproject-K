@@ -1,16 +1,16 @@
 [gd_scene load_steps=31 format=3 uid="uid://dtxw0vpoo4vmp"]
 
-[ext_resource type="Script" path="res://scripts/player.gd" id="1_l0wf3"]
-[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/char/PlayerSprite02.png" id="2_4indl"]
-[ext_resource type="Texture2D" uid="uid://b16him4k51l4w" path="res://assets/char/Shadow.png" id="3_6uvk7"]
-[ext_resource type="Texture2D" uid="uid://bifgxv8fhm68y" path="res://assets/char/AttackSprite01.png" id="3_72m04"]
-[ext_resource type="Script" path="res://scripts/player_state_machine.gd" id="3_gy8ag"]
-[ext_resource type="Script" path="res://scripts/state_idle.gd" id="4_wt51r"]
-[ext_resource type="Script" path="res://scripts/state_walk.gd" id="5_va5ut"]
-[ext_resource type="Script" path="res://scripts/state_attack.gd" id="6_e6p26"]
-[ext_resource type="AudioStream" uid="uid://dhtpachbkbj6a" path="res://assets/char/audio.mp3" id="8_nejwa"]
-[ext_resource type="PackedScene" uid="uid://c6m280xd1lxpg" path="res://GeneralNodes/hurtbox/hurtbox.tscn" id="10_qo18f"]
-[ext_resource type="Script" path="res://scripts/playerinteractionhost.gd" id="10_xbwrp"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_4fa26"]
+[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/char/PlayerSprite02.png" id="2_d0stl"]
+[ext_resource type="Texture2D" uid="uid://b16him4k51l4w" path="res://assets/char/Shadow.png" id="3_4shgd"]
+[ext_resource type="Texture2D" uid="uid://bifgxv8fhm68y" path="res://assets/char/AttackSprite01.png" id="4_ihd1e"]
+[ext_resource type="PackedScene" uid="uid://c6m280xd1lxpg" path="res://GeneralNodes/hurtbox/hurtbox.tscn" id="5_52kvv"]
+[ext_resource type="Script" path="res://scripts/player_state_machine.gd" id="6_wibmk"]
+[ext_resource type="Script" path="res://scripts/state_idle.gd" id="7_mhf7d"]
+[ext_resource type="Script" path="res://scripts/state_walk.gd" id="8_sflng"]
+[ext_resource type="Script" path="res://scripts/state_attack.gd" id="9_lpirg"]
+[ext_resource type="AudioStream" uid="uid://dhtpachbkbj6a" path="res://assets/char/audio.mp3" id="10_urscm"]
+[ext_resource type="Script" path="res://scripts/playerinteractionhost.gd" id="11_khcxt"]
 
 [sub_resource type="Animation" id="Animation_dubto"]
 length = 0.001
@@ -483,7 +483,7 @@ disable_mode = 2
 collision_mask = 18
 motion_mode = 1
 wall_min_slide_angle = 0.174533
-script = ExtResource("1_l0wf3")
+script = ExtResource("1_4fa26")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
@@ -501,7 +501,7 @@ shape = SubResource("CircleShape2D_tb55n")
 texture_filter = 1
 position = Vector2(-2.38419e-07, 4)
 scale = Vector2(1.71875, 1.65625)
-texture = ExtResource("2_4indl")
+texture = ExtResource("2_d0stl")
 hframes = 16
 vframes = 3
 
@@ -510,11 +510,11 @@ modulate = Color(0.0430392, 0.0430392, 0.0430392, 1)
 show_behind_parent = true
 position = Vector2(-0.581818, 20.5283)
 scale = Vector2(0.507823, 0.5)
-texture = ExtResource("3_6uvk7")
+texture = ExtResource("3_4shgd")
 
 [node name="attackeffect" type="Sprite2D" parent="Sprite2D"]
 position = Vector2(-0.581818, 3.62264)
-texture = ExtResource("3_72m04")
+texture = ExtResource("4_ihd1e")
 hframes = 12
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D/attackeffect"]
@@ -523,7 +523,7 @@ libraries = {
 }
 autoplay = "No_attack"
 
-[node name="AttackHurtBox" parent="Sprite2D" instance=ExtResource("10_qo18f")]
+[node name="AttackHurtBox" parent="Sprite2D" instance=ExtResource("5_52kvv")]
 position = Vector2(-1.74545, 16.9057)
 scale = Vector2(0.581818, 0.603774)
 collision_mask = 256
@@ -535,17 +535,17 @@ shape = SubResource("CircleShape2D_e4mxu")
 debug_color = Color(0.910805, 0.274974, 0.291734, 0.42)
 
 [node name="StateMachine" type="Node" parent="."]
-script = ExtResource("3_gy8ag")
+script = ExtResource("6_wibmk")
 
 [node name="idle" type="Node" parent="StateMachine"]
-script = ExtResource("4_wt51r")
+script = ExtResource("7_mhf7d")
 
 [node name="walk" type="Node" parent="StateMachine"]
-script = ExtResource("5_va5ut")
+script = ExtResource("8_sflng")
 
 [node name="attack" type="Node" parent="StateMachine"]
-script = ExtResource("6_e6p26")
-Attack_sound = ExtResource("8_nejwa")
+script = ExtResource("9_lpirg")
+Attack_sound = ExtResource("10_urscm")
 
 [node name="audio" type="Node2D" parent="."]
 
@@ -553,4 +553,4 @@ Attack_sound = ExtResource("8_nejwa")
 
 [node name="interactions" type="Node2D" parent="."]
 position = Vector2(-2, 24)
-script = ExtResource("10_xbwrp")
+script = ExtResource("11_khcxt")

@@ -29,14 +29,12 @@ project/assembly_name="gameproject-K"
 [file_customization]
 
 folder_colors={
-"res://assets/": "green",
-"res://scene'/": "blue",
 "res://scripts/": "gray"
 }
 
 [gui]
 
-theme/custom_font="res://assets/ui_ux/1_Minecraft-Regular.otf"
+theme/custom_font="res://GeneralNodes/uiux/ui_ux/1_Minecraft-Regular.otf"
 
 [input]
 

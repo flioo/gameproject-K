@@ -1,8 +1,8 @@
 [gd_scene load_steps=14 format=4 uid="uid://ev2befn32o5y"]
 
-[ext_resource type="PackedScene" uid="uid://dtxw0vpoo4vmp" path="res://scene'/player.tscn" id="1_dr4a6"]
+[ext_resource type="PackedScene" uid="uid://dtxw0vpoo4vmp" path="res://main scene/player.tscn" id="1_dr4a6"]
 [ext_resource type="Texture2D" uid="uid://wm4yfy5w7rrp" path="res://assets/enviroment/enviroment.png" id="1_dr6gd"]
-[ext_resource type="PackedScene" uid="uid://bj78tcrml7erw" path="res://scene'/mainmenu/ui_ux_ingame.tscn" id="1_ud00c"]
+[ext_resource type="PackedScene" uid="uid://bj78tcrml7erw" path="res://GeneralNodes/uiux/ui_ux_ingame.tscn" id="1_ud00c"]
 [ext_resource type="Texture2D" uid="uid://dcxfiulbmtgno" path="res://assets/enviroment/tree-detailed.png" id="2_6i6tm"]
 [ext_resource type="Texture2D" uid="uid://5gm2hmc7us22" path="res://assets/usable item/fence.png" id="3_mwmds"]
 [ext_resource type="Texture2D" uid="uid://crcjlwdm1tx3r" path="res://assets/enviroment/wall.png" id="4_4v1md"]

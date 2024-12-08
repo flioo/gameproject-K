@@ -1,14 +1,14 @@
 [gd_scene load_steps=31 format=3 uid="uid://dtxw0vpoo4vmp"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_l0wf3"]
-[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="2_4indl"]
-[ext_resource type="Texture2D" uid="uid://b16him4k51l4w" path="res://assets/Char/Shadow.png" id="3_6uvk7"]
-[ext_resource type="Texture2D" uid="uid://bifgxv8fhm68y" path="res://assets/Char/AttackSprite01.png" id="3_72m04"]
+[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/char/PlayerSprite02.png" id="2_4indl"]
+[ext_resource type="Texture2D" uid="uid://b16him4k51l4w" path="res://assets/char/Shadow.png" id="3_6uvk7"]
+[ext_resource type="Texture2D" uid="uid://bifgxv8fhm68y" path="res://assets/char/AttackSprite01.png" id="3_72m04"]
 [ext_resource type="Script" path="res://scripts/player_state_machine.gd" id="3_gy8ag"]
 [ext_resource type="Script" path="res://scripts/state_idle.gd" id="4_wt51r"]
 [ext_resource type="Script" path="res://scripts/state_walk.gd" id="5_va5ut"]
 [ext_resource type="Script" path="res://scripts/state_attack.gd" id="6_e6p26"]
-[ext_resource type="AudioStream" uid="uid://dhtpachbkbj6a" path="res://assets/Char/audio.mp3" id="8_nejwa"]
+[ext_resource type="AudioStream" uid="uid://dhtpachbkbj6a" path="res://assets/char/audio.mp3" id="8_nejwa"]
 [ext_resource type="PackedScene" uid="uid://c6m280xd1lxpg" path="res://GeneralNodes/hurtbox/hurtbox.tscn" id="10_qo18f"]
 [ext_resource type="Script" path="res://scripts/playerinteractionhost.gd" id="10_xbwrp"]
 
@@ -529,7 +529,8 @@ scale = Vector2(0.581818, 0.603774)
 collision_mask = 256
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/AttackHurtBox"]
-position = Vector2(11.9992, -10.125)
+position = Vector2(3.99999, -13.0001)
+scale = Vector2(0.8, 0.8)
 shape = SubResource("CircleShape2D_e4mxu")
 debug_color = Color(0.910805, 0.274974, 0.291734, 0.42)
 

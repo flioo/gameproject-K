@@ -27,10 +27,11 @@ func Exit() -> void :
 	animation_player.animation_finished.disconnect(EndAttack)
 	attacking = false
 	hurtbox.monitoring = false
+	
 	pass
 func process(_delta: float) -> State:
 	
-	player.velocity-= player.velocity * decelarate_speed * _delta
+	Player.velocity-= Player.velocity * decelarate_speed * _delta
 	if attacking == false :
 		if Player.direction ==Vector2.ZERO:
 			return idle

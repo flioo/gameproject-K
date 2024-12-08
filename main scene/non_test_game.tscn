@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://ev2befn32o5y"]
+[gd_scene load_steps=16 format=4 uid="uid://ev2befn32o5y"]
 
 [ext_resource type="PackedScene" uid="uid://dtxw0vpoo4vmp" path="res://Main Scene/player.tscn" id="1_dr4a6"]
 [ext_resource type="Texture2D" uid="uid://wm4yfy5w7rrp" path="res://assets/enviroment/enviroment.png" id="1_dr6gd"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://5gm2hmc7us22" path="res://assets/usable item/fence.png" id="3_mwmds"]
 [ext_resource type="Texture2D" uid="uid://crcjlwdm1tx3r" path="res://assets/enviroment/wall.png" id="4_4v1md"]
 [ext_resource type="PackedScene" uid="uid://cc7yhfjvnry0y" path="res://Enemy/slime/slime.tscn" id="7_efdhs"]
+[ext_resource type="PackedScene" uid="uid://cg4wc2vweg051" path="res://GeneralNodes/Props/Plants/plants.tscn" id="8_vgg28"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_b6wan"]
 tile_data = PackedInt32Array(0, 1441795, 14, 6, 1441795, 14, 11, 1441795, 14, 12, 1441795, 14, 18, 1441795, 14, 21, 1441795, 14, 24, 1441795, 14, 30, 1441795, 14, 31, 1441795, 14, 35, 1441795, 14, 42, 1441795, 14, 47, 1441795, 14, 53, 1441795, 14, 58, 1441795, 14)
@@ -655,3 +656,6 @@ tile_set = SubResource("TileSet_rcvqc")
 
 [node name="Slime" parent="." instance=ExtResource("7_efdhs")]
 position = Vector2(573, 235)
+
+[node name="Plants" parent="." instance=ExtResource("8_vgg28")]
+position = Vector2(492, 339)

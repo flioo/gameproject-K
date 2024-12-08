@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2bcvn0h4ieta"
-path="res://.godot/imported/DestroySmoke.png-948e08af3bc3cfe35a75bda1b13c0524.ctex"
+path="res://.godot/imported/DestroySmoke.png-2e21d2ebb7fbf42b88eaf89c397f5023.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Fight/DestroySmoke.png"
-dest_files=["res://.godot/imported/DestroySmoke.png-948e08af3bc3cfe35a75bda1b13c0524.ctex"]
+source_file="res://assets/Enemy/DestroySmoke.png"
+dest_files=["res://.godot/imported/DestroySmoke.png-2e21d2ebb7fbf42b88eaf89c397f5023.ctex"]
 
 [params]
 

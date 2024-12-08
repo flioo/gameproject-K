@@ -11,6 +11,6 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	pass
 func AreaEntered(a : Area2D) ->void :
-	if a is HitBox:
+	if a is HitBox :
 		a.takedamage(damage)
 	pass

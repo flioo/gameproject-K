@@ -10,18 +10,20 @@ var invulnerable :bool = false
 @export var hp:int = 3 
 @onready var animation_player : AnimationPlayer = $AnimationPlayer
 @onready var sprite :Sprite2D = $Sprite2D
-@onready var state_machine:EnemyStateMachine =$EnemystateMachine
-#@onready var hit_box :HitBox = $HitBox
+@onready var state_machine:EnemyStateMachine =$enemystatemachine
+@onready var hit_box :HitBox = $Hitbox
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	state_machine.initialize(self)
 	
+	state_machine.initialize(self)
+	Player =GlobalPlayerManager.Player
+	hit_box.damaged.connect(_take_damage)
 	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
  
 func  _physics_process(_delta: float) -> void:
@@ -54,3 +56,10 @@ func anim_Direction() -> String :
 		return "up"
 	else :
 		return "side"
+
+
+
+func _take_damage ( damage : int) -> void :
+	 
+	hp -= damage
+	enemy_damaged.emit()

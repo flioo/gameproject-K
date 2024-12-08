@@ -1,6 +1,6 @@
 class_name EnemyStateMachine extends Node
 
-var states = Array [ EnemyState ]
+var states : Array [ EnemyState ] 
 var prev_state :EnemyState
 var current_state : EnemyState
 # Called when the node enters the scene tree for the first time.
@@ -25,7 +25,7 @@ func initialize(_enemy : enemy ) -> void :
 	for s in states:
 		s.Enemy = _enemy
 		s.StateMachine = self
-		s.init()
+		s._init()
 		
 	if states.size() > 0 :
 		Changestate(states[0])

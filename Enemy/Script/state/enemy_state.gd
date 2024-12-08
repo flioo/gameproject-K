@@ -14,8 +14,8 @@ func enter() -> void:
 
 func exit() -> void:
 	pass
-func process(delta: float) -> EnemyState:
+func process(_delta: float) -> EnemyState:
 	return null
 	
-func physics(delta: float) -> EnemyState:
+func physics(_delta: float) -> EnemyState:
 	return null

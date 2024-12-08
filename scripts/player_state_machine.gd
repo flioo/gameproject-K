@@ -27,7 +27,7 @@ func initialize(_player :player) -> void:
 		if c is State:
 			state.append(c)
 	if state.size() >0:
-		state[0].player =_player
+		state[0].Player =_player
 		Changestate(state[0])
 		process_mode = Node.PROCESS_MODE_INHERIT
 

@@ -1,9 +1,9 @@
 class_name playerinteractionhost extends Node2D
-@onready var player : player =$".."
+@onready var Player : player =$".."
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	player.DirectionChanged.connect(UpdateDirection)
+	Player.DirectionChanged.connect(UpdateDirection)
 	pass # Replace with function body.
 
 

@@ -13,8 +13,8 @@ var attacking:bool =false
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func Enter() -> void :
-	player.UpdateAnimation("attack")
-	sword_effect.play("Attack_"+player.animDirection())
+	Player.UpdateAnimation("attack")
+	sword_effect.play("Attack_"+Player.animDirection())
 	animation_player.animation_finished.connect(EndAttack)
 	audio.stream = Attack_sound
 	audio.pitch_scale = randf_range(2.0,3.0)
@@ -32,7 +32,7 @@ func process(_delta: float) -> State:
 	
 	player.velocity-= player.velocity * decelarate_speed * _delta
 	if attacking == false :
-		if player.direction ==Vector2.ZERO:
+		if Player.direction ==Vector2.ZERO:
 			return idle
 		else:
 			return walk

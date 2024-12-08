@@ -7,17 +7,17 @@ class_name State_walk extends State
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func Enter() -> void :
-	player.UpdateAnimation("walk")
+	Player.UpdateAnimation("walk")
 	pass
 func Exit() -> void :
 	
 	pass
 func process(_delta: float) -> State:
-	if player.direction == Vector2.ZERO:
+	if Player.direction == Vector2.ZERO:
 		return idle
-	player.velocity = player.direction * move_speed
-	if player.SetDirection():
-		player.UpdateAnimation("walk")
+	Player.velocity = Player.direction * move_speed
+	if Player.SetDirection():
+		Player.UpdateAnimation("walk")
 	return null
 
 func Physics(_delta: float) -> State:

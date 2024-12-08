@@ -1,6 +1,7 @@
-[gd_scene load_steps=31 format=3 uid="uid://dtxw0vpoo4vmp"]
+[gd_scene load_steps=32 format=3 uid="uid://dtxw0vpoo4vmp"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_4fa26"]
+[ext_resource type="Script" path="res://scripts/PlayerCamera.gd" id="2_1ex08"]
 [ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="2_d0stl"]
 [ext_resource type="Texture2D" uid="uid://b16him4k51l4w" path="res://assets/Char/Shadow.png" id="3_4shgd"]
 [ext_resource type="Texture2D" uid="uid://bifgxv8fhm68y" path="res://assets/Char/AttackSprite01.png" id="4_ihd1e"]
@@ -486,6 +487,13 @@ wall_min_slide_angle = 0.174533
 script = ExtResource("1_4fa26")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(5, 2)
+limit_left = -200
+limit_top = -400
+limit_right = 2000
+limit_bottom = 1000
+editor_draw_limits = true
+script = ExtResource("2_1ex08")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

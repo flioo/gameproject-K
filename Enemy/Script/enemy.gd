@@ -2,6 +2,8 @@ class_name enemy extends CharacterBody2D
 
 signal direction_changed( new_direction : Vector2)
 signal enemy_damaged()
+signal enemy_destroyed()
+
 const DIR_4 = [Vector2.RIGHT,Vector2.DOWN,Vector2.LEFT,Vector2.UP]
 var cardinal_direction : Vector2 = Vector2.DOWN
 var direction :Vector2 = Vector2.ZERO
@@ -48,7 +50,7 @@ func SetDirection(_new_direction : Vector2) -> bool :
 func Update_Animation(state : String) -> void :
 	animation_player.play(state + "_" + anim_Direction())
 	pass
-	
+	 
 func anim_Direction() -> String :
 	if cardinal_direction == Vector2.DOWN:
 		return "down"
@@ -60,6 +62,10 @@ func anim_Direction() -> String :
 
 
 func _take_damage ( damage : int) -> void :
-	 
+	if invulnerable == true :
+		return
 	hp -= damage
-	enemy_damaged.emit()
+	if hp > 0 :
+		enemy_damaged.emit()
+	else :
+		enemy_destroyed.emit()

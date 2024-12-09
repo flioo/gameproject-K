@@ -7,6 +7,6 @@ func _ready() -> void:
 	pass # Replace with function body.
 
 
-func takedamage(damage:int) -> void :
+func takedamage(_damage:int) -> void :
 	queue_free()
 	pass

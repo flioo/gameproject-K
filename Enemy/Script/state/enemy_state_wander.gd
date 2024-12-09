@@ -12,7 +12,7 @@ class_name  EnemyStateWander extends EnemyState
 
 var _timer:float = 0.0
 var _direction : Vector2 
-func _init() -> void:
+func init() -> void:
 	pass
 
 

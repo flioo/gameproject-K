@@ -25,7 +25,7 @@ func initialize(_enemy : enemy ) -> void :
 	for s in states:
 		s.Enemy = _enemy
 		s.StateMachine = self
-		s._init()
+		s.init()
 		
 	if states.size() > 0 :
 		Changestate(states[0])

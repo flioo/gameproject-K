@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://cc7yhfjvnry0y"]
+[gd_scene load_steps=32 format=3 uid="uid://cc7yhfjvnry0y"]
 
 [ext_resource type="Texture2D" uid="uid://q2n6dmdg8u0e" path="res://Enemy/slime/Slime.png" id="1_6gsbx"]
 [ext_resource type="Script" path="res://Enemy/Script/enemy.gd" id="1_rflo5"]
@@ -12,7 +12,6 @@
 [ext_resource type="PackedScene" uid="uid://c6m280xd1lxpg" path="res://GeneralNodes/hurtbox/hurtbox.tscn" id="7_i8rtg"]
 [ext_resource type="Texture2D" uid="uid://d2bcvn0h4ieta" path="res://assets/Enemy/DestroySmoke.png" id="9_oi04a"]
 [ext_resource type="Script" path="res://Enemy/Script/state/enemy_state_stun.gd" id="11_8ypa6"]
-[ext_resource type="Script" path="res://Enemy/Script/state/enemy_state_destroy.gd" id="12_hpugy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_tosnr"]
 radius = 14.0
@@ -774,12 +773,10 @@ script = ExtResource("6_eqngm")
 state_animation_duration = 0.7
 next_state = NodePath("../idle")
 
-[node name="stun" type="Node" parent="enemystatemachine" node_paths=PackedStringArray("next_state")]
+[node name="stun" type="Node" parent="enemystatemachine"]
 script = ExtResource("11_8ypa6")
-next_state = NodePath("../idle")
 
 [node name="Destroy" type="Node" parent="enemystatemachine"]
-script = ExtResource("12_hpugy")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 max_polyphony = 4

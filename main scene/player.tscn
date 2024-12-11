@@ -479,6 +479,7 @@ radius = 25.0
 
 [node name="player" type="CharacterBody2D"]
 position = Vector2(609, 312)
+scale = Vector2(0.8, 0.8)
 disable_mode = 2
 collision_mask = 18
 motion_mode = 1
@@ -495,7 +496,7 @@ libraries = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 11)
+position = Vector2(1, 29)
 scale = Vector2(0.669, 0.7)
 shape = SubResource("CircleShape2D_tb55n")
 

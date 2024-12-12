@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://dtxw0vpoo4vmp"]
+[gd_scene load_steps=36 format=3 uid="uid://dtxw0vpoo4vmp"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_4fa26"]
 [ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="2_d0stl"]
@@ -11,6 +11,7 @@
 [ext_resource type="Script" path="res://scripts/state_attack.gd" id="9_lpirg"]
 [ext_resource type="AudioStream" uid="uid://dhtpachbkbj6a" path="res://assets/Char/audio.mp3" id="10_urscm"]
 [ext_resource type="Script" path="res://scripts/playerinteractionhost.gd" id="11_khcxt"]
+[ext_resource type="PackedScene" uid="uid://7n64jqq5w4ke" path="res://GeneralNodes/HITBOX/hitbox.tscn" id="12_h37fs"]
 
 [sub_resource type="Animation" id="Animation_dubto"]
 length = 0.001
@@ -41,7 +42,7 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id="Animation_pdkgd"]
 resource_name = "attack_down"
-length = 0.3
+length = 0.4
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -225,9 +226,60 @@ tracks/0/keys = {
 "values": [13, 16]
 }
 
+[sub_resource type="Animation" id="Animation_vw1hp"]
+resource_name = "Stun_down"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [30]
+}
+
+[sub_resource type="Animation" id="Animation_xbg41"]
+resource_name = "Stun_up"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [31]
+}
+
+[sub_resource type="Animation" id="Animation_ngw3d"]
+resource_name = "Stun_side"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [32]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_niu0y"]
 _data = {
 "RESET": SubResource("Animation_dubto"),
+"Stun_down": SubResource("Animation_vw1hp"),
+"Stun_side": SubResource("Animation_ngw3d"),
+"Stun_up": SubResource("Animation_xbg41"),
 "attack_down": SubResource("Animation_pdkgd"),
 "attack_side": SubResource("Animation_0u3pu"),
 "attack_up": SubResource("Animation_xrjoh"),
@@ -477,6 +529,8 @@ _data = {
 [sub_resource type="CircleShape2D" id="CircleShape2D_e4mxu"]
 radius = 25.0
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_slma3"]
+
 [node name="player" type="CharacterBody2D"]
 position = Vector2(609, 312)
 scale = Vector2(0.8, 0.8)
@@ -532,8 +586,7 @@ scale = Vector2(0.581818, 0.603774)
 collision_mask = 256
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/AttackHurtBox"]
-position = Vector2(3.99999, -13.0001)
-scale = Vector2(0.8, 0.8)
+position = Vector2(1.74917, -2.09378)
 shape = SubResource("CircleShape2D_e4mxu")
 debug_color = Color(0.910805, 0.274974, 0.291734, 0.42)
 
@@ -557,3 +610,11 @@ Attack_sound = ExtResource("10_urscm")
 [node name="interactions" type="Node2D" parent="."]
 position = Vector2(-2, 24)
 script = ExtResource("11_khcxt")
+
+[node name="Hitbox" parent="." instance=ExtResource("12_h37fs")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(-1.25, 21.25)
+scale = Vector2(1.42891, -1.31362)
+shape = SubResource("CircleShape2D_slma3")
+debug_color = Color(0.636799, 0.523009, 0.168089, 0.42)

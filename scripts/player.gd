@@ -3,18 +3,22 @@ class_name player extends CharacterBody2D
 const DIR_4 = [Vector2.RIGHT,Vector2.DOWN,Vector2.LEFT,Vector2.UP]
 var cardinal_direction : Vector2 = Vector2.DOWN
 var direction :Vector2 = Vector2.ZERO
-
-
+signal player_damaged(Hurt_box : HurtBox)
+signal DirectionChanged(new_direction: Vector2)
 
 @onready var animation_player : AnimationPlayer = $AnimationPlayer
 @onready var sprite :Sprite2D = $Sprite2D
 @onready var state_machine:PlayerStateMachine =$StateMachine
-signal DirectionChanged(new_direction: Vector2)
+@onready var hitbox :HitBox = $Hitbox
+var inulverable :bool = false
+var hp :int=6
+var max_hp : int = 6
 
 # Called when the node enters the scene tree for the first time.
 func _ready() :
 	GlobalPlayerManager.Player = self
 	state_machine.initialize(self)
+	hitbox.damaged.connect(_take_damage)
 	pass # Replace with function body.
 
 
@@ -61,3 +65,14 @@ func animDirection() -> String :
 		return "up"
 	else :
 		return "side"
+
+func _take_damage(Hurtbox : HurtBox) -> void:
+	pass
+	
+	
+func update_hp(delta : int) -> void :
+	 
+	pass
+ 
+func make_invulnerable() -> void :
+	pass

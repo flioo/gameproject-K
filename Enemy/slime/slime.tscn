@@ -721,8 +721,9 @@ _data = {
 }
 
 [node name="Slime" type="CharacterBody2D"]
-collision_layer = 256
-collision_mask = 16
+y_sort_enabled = true
+collision_layer = 272
+collision_mask = 18
 script = ExtResource("1_rflo5")
 
 [node name="Hitbox" parent="." instance=ExtResource("2_qp2gp")]
@@ -742,6 +743,8 @@ shape = SubResource("CircleShape2D_tosnr")
 debug_color = Color(0.789536, 0.427725, 0.0987857, 0.42)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = 1
+y_sort_enabled = true
 position = Vector2(0, -15)
 texture = ExtResource("1_6gsbx")
 hframes = 16

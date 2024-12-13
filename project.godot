@@ -27,6 +27,10 @@ window/size/mode=2
 
 project/assembly_name="gameproject-K"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/TileMapDual/plugin.cfg")
+
 [file_customization]
 
 folder_colors={

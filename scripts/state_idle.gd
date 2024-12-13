@@ -8,6 +8,7 @@ class_name State_idle extends State
 func Enter() -> void :
 	Player.UpdateAnimation("idle")
 	pass
+	
 func Exit() -> void :
 	
 	pass

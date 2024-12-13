@@ -726,6 +726,7 @@ collision_mask = 16
 script = ExtResource("1_rflo5")
 
 [node name="Hitbox" parent="." instance=ExtResource("2_qp2gp")]
+collision_mask = 2
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Hitbox"]
 position = Vector2(0, -3)
@@ -733,6 +734,7 @@ shape = SubResource("CircleShape2D_tosnr")
 debug_color = Color(0.789536, 0.427725, 0.0987857, 0.42)
 
 [node name="Hurtbox" parent="." instance=ExtResource("7_i8rtg")]
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
 position = Vector2(0, -3)

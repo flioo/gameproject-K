@@ -10,6 +10,7 @@ signal DirectionChanged(new_direction: Vector2)
 @onready var sprite :Sprite2D = $Sprite2D
 @onready var state_machine:PlayerStateMachine =$StateMachine
 @onready var hitbox :HitBox = $Hitbox
+@onready var effect_animation :AnimationPlayer =$effect_animation
 var inulverable :bool = false
 var hp :int=6
 var max_hp : int = 6
@@ -19,6 +20,7 @@ func _ready() :
 	GlobalPlayerManager.Player = self
 	state_machine.initialize(self)
 	hitbox.damaged.connect(_take_damage)
+	update_hp(99)
 	pass # Replace with function body.
 
 
@@ -67,12 +69,25 @@ func animDirection() -> String :
 		return "side"
 
 func _take_damage(Hurtbox : HurtBox) -> void:
+	if inulverable ==true :
+		return
+	update_hp(-Hurtbox.damage)
+	if hp > 0 :
+		player_damaged.emit(Hurtbox)
+	else: 
+		player_damaged.emit(Hurtbox)
+		update_hp(99)
 	pass
 	
 	
 func update_hp(delta : int) -> void :
-	 
+	hp =clampi(hp + delta , 0 ,max_hp)
 	pass
  
-func make_invulnerable() -> void :
+func make_invulnerable(_duration : float = 1.0) -> void :
+	inulverable = true
+	hitbox.monitoring =false
+	await get_tree().create_timer(_duration).timeout
+	inulverable = false
+	hitbox.monitoring = true
 	pass

@@ -1,6 +1,6 @@
 class_name PlayerStateMachine extends Node
 
-var state : Array[State]
+var states: Array[State]
 var prev_state:State
 var curre_state:State
 # Called when the node enters the scene tree for the first time.
@@ -22,14 +22,18 @@ func _unhandled_input(event: InputEvent) -> void:
 	Changestate(curre_state.HandleInput(event))
 
 func initialize(_player :player) -> void:
-	state =[]
+	states =[]
 	for c in get_children():
 		if c is State:
-			state.append(c)
-	if state.size() >0:
-		state[0].Player =_player
-		Changestate(state[0])
-		process_mode = Node.PROCESS_MODE_INHERIT
+			states.append(c)
+	if states.size() == 0:
+		return
+	states[0].Player =_player
+	states[0].state_machine = self
+	for state in states:
+		state.init()
+	Changestate(states[0])
+	process_mode = Node.PROCESS_MODE_INHERIT
 
 
 func Changestate(new_state : State)->void:

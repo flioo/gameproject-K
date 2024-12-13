@@ -21,7 +21,10 @@ func Enter() -> void :
 	audio.play()
 	attacking = true
 	hurtbox.monitoring = true
+	
+	
 	await get_tree().create_timer(0.075).timeout
+	
 	pass
 func Exit() -> void :
 	animation_player.animation_finished.disconnect(EndAttack)

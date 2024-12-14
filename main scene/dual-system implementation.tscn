@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://ds4r27eiy7bww"]
 
-[ext_resource type="Texture2D" uid="uid://2f3rvqbysjpd" path="res://assets/enviroment/dual-grid-one.png" id="1_nreib"]
+[ext_resource type="Texture2D" uid="uid://dt4hbusld4huc" path="res://assets/enviroment/dual-grid-one.png" id="1_nreib"]
 [ext_resource type="Script" path="res://addons/TileMapDual/TileMapDual.gd" id="2_haow7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n8adv"]

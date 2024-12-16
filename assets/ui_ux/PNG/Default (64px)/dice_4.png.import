@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkoqobinalape"
-path="res://.godot/imported/dice_4.png-cd4374cab214e8d6fb5df07e3e0b45d5.ctex"
+path="res://.godot/imported/dice_4.png-97b9b2488f05f138cddb8e1b01a86b40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/dice_4.png"
-dest_files=["res://.godot/imported/dice_4.png-cd4374cab214e8d6fb5df07e3e0b45d5.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/dice_4.png"
+dest_files=["res://.godot/imported/dice_4.png-97b9b2488f05f138cddb8e1b01a86b40.ctex"]
 
 [params]
 

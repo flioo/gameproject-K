@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cywolwotds1yu"
-path="res://.godot/imported/lock_open.png-9e0ae7eca0d44d27383ebab15ca8e095.ctex"
+path="res://.godot/imported/lock_open.png-1aef1c88bb2a6f43192d5939cb1d9e23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/lock_open.png"
-dest_files=["res://.godot/imported/lock_open.png-9e0ae7eca0d44d27383ebab15ca8e095.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/lock_open.png"
+dest_files=["res://.godot/imported/lock_open.png-1aef1c88bb2a6f43192d5939cb1d9e23.ctex"]
 
 [params]
 

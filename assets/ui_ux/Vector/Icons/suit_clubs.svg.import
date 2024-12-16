@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c75klaeprch8j"
-path="res://.godot/imported/suit_clubs.svg-766d3eccdbab6ddf3d5f5a0d09103ae5.ctex"
+path="res://.godot/imported/suit_clubs.svg-d33aae21a129297c318cfa88c2e37527.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/suit_clubs.svg"
-dest_files=["res://.godot/imported/suit_clubs.svg-766d3eccdbab6ddf3d5f5a0d09103ae5.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/suit_clubs.svg"
+dest_files=["res://.godot/imported/suit_clubs.svg-d33aae21a129297c318cfa88c2e37527.ctex"]
 
 [params]
 

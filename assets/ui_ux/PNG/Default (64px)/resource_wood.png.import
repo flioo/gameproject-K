@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://32amghwc4cae"
-path="res://.godot/imported/resource_wood.png-576e325456690cf7482c790d0a202ea5.ctex"
+path="res://.godot/imported/resource_wood.png-c22f29ea13c3d10cb16ba59b89eb4511.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/resource_wood.png"
-dest_files=["res://.godot/imported/resource_wood.png-576e325456690cf7482c790d0a202ea5.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/resource_wood.png"
+dest_files=["res://.godot/imported/resource_wood.png-c22f29ea13c3d10cb16ba59b89eb4511.ctex"]
 
 [params]
 

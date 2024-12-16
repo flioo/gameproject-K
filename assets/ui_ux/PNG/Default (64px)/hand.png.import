@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c02lshtworpm1"
-path="res://.godot/imported/hand.png-8f085035c98bcafe1da897af9e1ea627.ctex"
+path="res://.godot/imported/hand.png-180093d298c6b6c60815de57f1565106.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/hand.png"
-dest_files=["res://.godot/imported/hand.png-8f085035c98bcafe1da897af9e1ea627.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/hand.png"
+dest_files=["res://.godot/imported/hand.png-180093d298c6b6c60815de57f1565106.ctex"]
 
 [params]
 

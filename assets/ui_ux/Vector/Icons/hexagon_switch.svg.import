@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkkby6wla57qp"
-path="res://.godot/imported/hexagon_switch.svg-a2832e29bcf52914626f1904ca543555.ctex"
+path="res://.godot/imported/hexagon_switch.svg-37e386166394c8d2a75d499fac270cb5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/hexagon_switch.svg"
-dest_files=["res://.godot/imported/hexagon_switch.svg-a2832e29bcf52914626f1904ca543555.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/hexagon_switch.svg"
+dest_files=["res://.godot/imported/hexagon_switch.svg-37e386166394c8d2a75d499fac270cb5.ctex"]
 
 [params]
 

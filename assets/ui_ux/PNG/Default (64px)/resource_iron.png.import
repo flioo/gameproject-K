@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1b4kj4k442iq"
-path="res://.godot/imported/resource_iron.png-b03f9944ee8d0386dc9379ee1943df6f.ctex"
+path="res://.godot/imported/resource_iron.png-ed69970838f014046ee058d17f8b7797.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/resource_iron.png"
-dest_files=["res://.godot/imported/resource_iron.png-b03f9944ee8d0386dc9379ee1943df6f.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/resource_iron.png"
+dest_files=["res://.godot/imported/resource_iron.png-ed69970838f014046ee058d17f8b7797.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn3i6pceptpno"
-path="res://.godot/imported/structure_watchtower.svg-50a5576157e7a2f5bd01ccad786ddedb.ctex"
+path="res://.godot/imported/structure_watchtower.svg-252fe18f3753c5679ecd167bceb90b36.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/structure_watchtower.svg"
-dest_files=["res://.godot/imported/structure_watchtower.svg-50a5576157e7a2f5bd01ccad786ddedb.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/structure_watchtower.svg"
+dest_files=["res://.godot/imported/structure_watchtower.svg-252fe18f3753c5679ecd167bceb90b36.ctex"]
 
 [params]
 

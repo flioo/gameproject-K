@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://diwulnymcwdc2"
-path="res://.godot/imported/cards_under.png-cc8d6756040259b4ba34cec879953e8e.ctex"
+path="res://.godot/imported/cards_under.png-a041de4aae8bc629d433434b9c5c3beb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/cards_under.png"
-dest_files=["res://.godot/imported/cards_under.png-cc8d6756040259b4ba34cec879953e8e.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/cards_under.png"
+dest_files=["res://.godot/imported/cards_under.png-a041de4aae8bc629d433434b9c5c3beb.ctex"]
 
 [params]
 

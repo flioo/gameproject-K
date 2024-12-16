@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3hvku1e41dfa"
-path="res://.godot/imported/arrow_diagonal_cross_divided.png-748f44b5e9314af2d1ab3d54ac505997.ctex"
+path="res://.godot/imported/arrow_diagonal_cross_divided.png-2d87e3ce18ff0772470bbb1cae8cf1fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/arrow_diagonal_cross_divided.png"
-dest_files=["res://.godot/imported/arrow_diagonal_cross_divided.png-748f44b5e9314af2d1ab3d54ac505997.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/arrow_diagonal_cross_divided.png"
+dest_files=["res://.godot/imported/arrow_diagonal_cross_divided.png-2d87e3ce18ff0772470bbb1cae8cf1fd.ctex"]
 
 [params]
 

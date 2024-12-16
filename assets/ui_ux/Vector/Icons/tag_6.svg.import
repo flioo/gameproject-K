@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwv8i81df1708"
-path="res://.godot/imported/tag_6.svg-4a6f4de52686682c173408b11ec13c9e.ctex"
+path="res://.godot/imported/tag_6.svg-6740007ab5cc9e6321758e07d99503d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/tag_6.svg"
-dest_files=["res://.godot/imported/tag_6.svg-4a6f4de52686682c173408b11ec13c9e.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/tag_6.svg"
+dest_files=["res://.godot/imported/tag_6.svg-6740007ab5cc9e6321758e07d99503d6.ctex"]
 
 [params]
 

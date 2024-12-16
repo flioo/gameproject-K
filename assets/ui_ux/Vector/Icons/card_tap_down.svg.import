@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmp8qf7cxpml7"
-path="res://.godot/imported/card_tap_down.svg-29239e34e4e90b987d6721784be8c181.ctex"
+path="res://.godot/imported/card_tap_down.svg-e47cf9b35af05cd409def2b37b36541e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/card_tap_down.svg"
-dest_files=["res://.godot/imported/card_tap_down.svg-29239e34e4e90b987d6721784be8c181.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/card_tap_down.svg"
+dest_files=["res://.godot/imported/card_tap_down.svg-e47cf9b35af05cd409def2b37b36541e.ctex"]
 
 [params]
 

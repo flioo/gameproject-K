@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bec5omg0w758q"
-path="res://.godot/imported/crown_a.png-1a09e33ca9660aad7b73cbbcc33fd50b.ctex"
+path="res://.godot/imported/crown_a.png-f28fd842778d5293da36ca42d6a3c8e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/crown_a.png"
-dest_files=["res://.godot/imported/crown_a.png-1a09e33ca9660aad7b73cbbcc33fd50b.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/crown_a.png"
+dest_files=["res://.godot/imported/crown_a.png-f28fd842778d5293da36ca42d6a3c8e4.ctex"]
 
 [params]
 

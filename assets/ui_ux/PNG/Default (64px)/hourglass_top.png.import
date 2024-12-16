@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bokegdk5d3w7l"
-path="res://.godot/imported/hourglass_top.png-b66a68bf60886682533b69e51b935462.ctex"
+path="res://.godot/imported/hourglass_top.png-f8c7213b9abbec83d95d3341b89d3d06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/hourglass_top.png"
-dest_files=["res://.godot/imported/hourglass_top.png-b66a68bf60886682533b69e51b935462.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/hourglass_top.png"
+dest_files=["res://.godot/imported/hourglass_top.png-f8c7213b9abbec83d95d3341b89d3d06.ctex"]
 
 [params]
 

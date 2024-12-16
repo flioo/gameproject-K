@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctmyh7busbn8n"
-path="res://.godot/imported/pawn_reverse.png-17390d8ce2def988fbbdf17638586ad9.ctex"
+path="res://.godot/imported/pawn_reverse.png-f3426838b87605d3da1d44e211bd90a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/pawn_reverse.png"
-dest_files=["res://.godot/imported/pawn_reverse.png-17390d8ce2def988fbbdf17638586ad9.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/pawn_reverse.png"
+dest_files=["res://.godot/imported/pawn_reverse.png-f3426838b87605d3da1d44e211bd90a2.ctex"]
 
 [params]
 

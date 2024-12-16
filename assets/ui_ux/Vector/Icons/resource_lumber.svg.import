@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r2w6g2gkony7"
-path="res://.godot/imported/resource_lumber.svg-7fadfefddcf432d6f0619eb22e81ee8b.ctex"
+path="res://.godot/imported/resource_lumber.svg-b3b939d52189fbf869fc4db43fe7c94b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/resource_lumber.svg"
-dest_files=["res://.godot/imported/resource_lumber.svg-7fadfefddcf432d6f0619eb22e81ee8b.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/resource_lumber.svg"
+dest_files=["res://.godot/imported/resource_lumber.svg-b3b939d52189fbf869fc4db43fe7c94b.ctex"]
 
 [params]
 

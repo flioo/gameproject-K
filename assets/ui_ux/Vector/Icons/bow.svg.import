@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bb4bw38gwbrei"
-path="res://.godot/imported/bow.svg-70950d04e9c5bc4cdbd56ef24d346204.ctex"
+path="res://.godot/imported/bow.svg-cd894d2742059be3f6fc8d83dae8757a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/bow.svg"
-dest_files=["res://.godot/imported/bow.svg-70950d04e9c5bc4cdbd56ef24d346204.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/bow.svg"
+dest_files=["res://.godot/imported/bow.svg-cd894d2742059be3f6fc8d83dae8757a.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvgbhosohs8h4"
-path="res://.godot/imported/suit_hearts.svg-cd69a1ee0c381f482d563e898532720d.ctex"
+path="res://.godot/imported/suit_hearts.svg-9f89aa4e81be9c57d37f01f16f74a2f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/suit_hearts.svg"
-dest_files=["res://.godot/imported/suit_hearts.svg-cd69a1ee0c381f482d563e898532720d.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/suit_hearts.svg"
+dest_files=["res://.godot/imported/suit_hearts.svg-9f89aa4e81be9c57d37f01f16f74a2f1.ctex"]
 
 [params]
 

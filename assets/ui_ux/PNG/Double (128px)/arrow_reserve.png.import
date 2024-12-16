@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mo8ykx1ding1"
-path="res://.godot/imported/arrow_reserve.png-8dedc030649ab6f054ec1e8b8942c976.ctex"
+path="res://.godot/imported/arrow_reserve.png-1331d28ee57c14ca7fe0e3f2227d9c30.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/arrow_reserve.png"
-dest_files=["res://.godot/imported/arrow_reserve.png-8dedc030649ab6f054ec1e8b8942c976.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/arrow_reserve.png"
+dest_files=["res://.godot/imported/arrow_reserve.png-1331d28ee57c14ca7fe0e3f2227d9c30.ctex"]
 
 [params]
 

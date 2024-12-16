@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://31al5p12atrn"
-path="res://.godot/imported/hand_cross.png-974f3c18adb978cf2b70e4f89b0e30b1.ctex"
+path="res://.godot/imported/hand_cross.png-581c5c9a0c22eb862fe29f5cfb742088.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/hand_cross.png"
-dest_files=["res://.godot/imported/hand_cross.png-974f3c18adb978cf2b70e4f89b0e30b1.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/hand_cross.png"
+dest_files=["res://.godot/imported/hand_cross.png-581c5c9a0c22eb862fe29f5cfb742088.ctex"]
 
 [params]
 

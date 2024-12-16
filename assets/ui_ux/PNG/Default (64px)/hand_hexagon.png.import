@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp47rnykbx1qk"
-path="res://.godot/imported/hand_hexagon.png-1a24edb7b39468fcc0e4d0e68370428f.ctex"
+path="res://.godot/imported/hand_hexagon.png-5e2d7bbe16d108870817901cc0d1e20f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/hand_hexagon.png"
-dest_files=["res://.godot/imported/hand_hexagon.png-1a24edb7b39468fcc0e4d0e68370428f.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/hand_hexagon.png"
+dest_files=["res://.godot/imported/hand_hexagon.png-5e2d7bbe16d108870817901cc0d1e20f.ctex"]
 
 [params]
 

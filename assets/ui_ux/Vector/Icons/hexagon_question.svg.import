@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ugtarvby4wfq"
-path="res://.godot/imported/hexagon_question.svg-7baaf7bf229550f2cd5b5a941b9cf2b7.ctex"
+path="res://.godot/imported/hexagon_question.svg-0e4511f201cb34c561a0d0ec9e7a0f44.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/hexagon_question.svg"
-dest_files=["res://.godot/imported/hexagon_question.svg-7baaf7bf229550f2cd5b5a941b9cf2b7.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/hexagon_question.svg"
+dest_files=["res://.godot/imported/hexagon_question.svg-0e4511f201cb34c561a0d0ec9e7a0f44.ctex"]
 
 [params]
 

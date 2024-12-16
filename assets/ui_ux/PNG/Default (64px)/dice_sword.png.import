@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0itaed1khcn8"
-path="res://.godot/imported/dice_sword.png-aef37a565de7cf63427cb91af53ab996.ctex"
+path="res://.godot/imported/dice_sword.png-776e13d66eca657c720204df5002a244.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/dice_sword.png"
-dest_files=["res://.godot/imported/dice_sword.png-aef37a565de7cf63427cb91af53ab996.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/dice_sword.png"
+dest_files=["res://.godot/imported/dice_sword.png-776e13d66eca657c720204df5002a244.ctex"]
 
 [params]
 

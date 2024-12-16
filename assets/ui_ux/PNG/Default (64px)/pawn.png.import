@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://da1hbtrkrs7ii"
-path="res://.godot/imported/pawn.png-f9e537e0e72d184ba7abb5522ac00ce9.ctex"
+path="res://.godot/imported/pawn.png-103c2bc43eee7778a6e0bc21e17be107.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/pawn.png"
-dest_files=["res://.godot/imported/pawn.png-f9e537e0e72d184ba7abb5522ac00ce9.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/pawn.png"
+dest_files=["res://.godot/imported/pawn.png-103c2bc43eee7778a6e0bc21e17be107.ctex"]
 
 [params]
 

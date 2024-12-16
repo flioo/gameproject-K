@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2xjpamn5t27i"
-path="res://.godot/imported/campfire.png-3c60b26cac854858de78c9f11562cbdf.ctex"
+path="res://.godot/imported/campfire.png-4f72a0413332161102ab9eafbe151750.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/campfire.png"
-dest_files=["res://.godot/imported/campfire.png-3c60b26cac854858de78c9f11562cbdf.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/campfire.png"
+dest_files=["res://.godot/imported/campfire.png-4f72a0413332161102ab9eafbe151750.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://owmcfpqrdxif"
-path="res://.godot/imported/flask_half.svg-71e47654c06de5bec2e46c8e7cb7341e.ctex"
+path="res://.godot/imported/flask_half.svg-d212adaf25e94f1c6c979ee55e477206.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/flask_half.svg"
-dest_files=["res://.godot/imported/flask_half.svg-71e47654c06de5bec2e46c8e7cb7341e.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/flask_half.svg"
+dest_files=["res://.godot/imported/flask_half.svg-d212adaf25e94f1c6c979ee55e477206.ctex"]
 
 [params]
 

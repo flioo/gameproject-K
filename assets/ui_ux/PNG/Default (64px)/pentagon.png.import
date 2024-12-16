@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dywk63u7kp4iw"
-path="res://.godot/imported/pentagon.png-9178a00bde854598e136b4d4ec44bd61.ctex"
+path="res://.godot/imported/pentagon.png-30ccb1eb7b076c1a6b1edab2ecd360c4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/pentagon.png"
-dest_files=["res://.godot/imported/pentagon.png-9178a00bde854598e136b4d4ec44bd61.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/pentagon.png"
+dest_files=["res://.godot/imported/pentagon.png-30ccb1eb7b076c1a6b1edab2ecd360c4.ctex"]
 
 [params]
 

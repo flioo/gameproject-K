@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boisbgyw6m4mb"
-path="res://.godot/imported/arrow_diagonal.svg-665164a611593c143f34592ec2c92cd8.ctex"
+path="res://.godot/imported/arrow_diagonal.svg-f9464dc83c7e40a400f0e8ad2a0c821c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/arrow_diagonal.svg"
-dest_files=["res://.godot/imported/arrow_diagonal.svg-665164a611593c143f34592ec2c92cd8.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/arrow_diagonal.svg"
+dest_files=["res://.godot/imported/arrow_diagonal.svg-f9464dc83c7e40a400f0e8ad2a0c821c.ctex"]
 
 [params]
 

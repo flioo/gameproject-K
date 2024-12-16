@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://87qmi3i1bj2x"
-path="res://.godot/imported/card_tap_outline.png-9b4ac0cbeb85aaabe5f331a6a87e6445.ctex"
+path="res://.godot/imported/card_tap_outline.png-780bcdebfef71db33032d1352cf64491.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/card_tap_outline.png"
-dest_files=["res://.godot/imported/card_tap_outline.png-9b4ac0cbeb85aaabe5f331a6a87e6445.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/card_tap_outline.png"
+dest_files=["res://.godot/imported/card_tap_outline.png-780bcdebfef71db33032d1352cf64491.ctex"]
 
 [params]
 

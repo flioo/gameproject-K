@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp0orbf5pagh"
-path="res://.godot/imported/pawn_skip.png-6e9e0ee4409939bc0cea6cd656edd31c.ctex"
+path="res://.godot/imported/pawn_skip.png-b9067c68e164b3ddce02635aa60bd278.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/pawn_skip.png"
-dest_files=["res://.godot/imported/pawn_skip.png-6e9e0ee4409939bc0cea6cd656edd31c.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/pawn_skip.png"
+dest_files=["res://.godot/imported/pawn_skip.png-b9067c68e164b3ddce02635aa60bd278.ctex"]
 
 [params]
 

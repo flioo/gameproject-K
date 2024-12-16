@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs552qyc4oawi"
-path="res://.godot/imported/dice_empty.svg-afcc2d906f332bc5dc2d39e5cbac479d.ctex"
+path="res://.godot/imported/dice_empty.svg-1f7494561c06ef526436684cf03ccf2e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/dice_empty.svg"
-dest_files=["res://.godot/imported/dice_empty.svg-afcc2d906f332bc5dc2d39e5cbac479d.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/dice_empty.svg"
+dest_files=["res://.godot/imported/dice_empty.svg-1f7494561c06ef526436684cf03ccf2e.ctex"]
 
 [params]
 

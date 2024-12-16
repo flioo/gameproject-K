@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2ja0qw8wuty7"
-path="res://.godot/imported/notepad_write.svg-1bf6fec80d825e176187657753d9232b.ctex"
+path="res://.godot/imported/notepad_write.svg-42c6732f7b14fe25fc6902c1126b94a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/notepad_write.svg"
-dest_files=["res://.godot/imported/notepad_write.svg-1bf6fec80d825e176187657753d9232b.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/notepad_write.svg"
+dest_files=["res://.godot/imported/notepad_write.svg-42c6732f7b14fe25fc6902c1126b94a3.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://diudlajt1xtcg"
-path="res://.godot/imported/flip_full.svg-addf24a94359ed520902e738d1d26da3.ctex"
+path="res://.godot/imported/flip_full.svg-9231d9e54ce48fd19bcdec6a48931d2e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/Vector/Icons/flip_full.svg"
-dest_files=["res://.godot/imported/flip_full.svg-addf24a94359ed520902e738d1d26da3.ctex"]
+source_file="res://assets/ui_ux/Vector/Icons/flip_full.svg"
+dest_files=["res://.godot/imported/flip_full.svg-9231d9e54ce48fd19bcdec6a48931d2e.ctex"]
 
 [params]
 

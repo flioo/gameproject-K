@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3jatputle1t0"
-path="res://.godot/imported/timer_CW_25.png-c2c6a8a2d267c3285b885e48eb6e4c28.ctex"
+path="res://.godot/imported/timer_CW_25.png-e6a7f61f061738bfc0b173c18dff0502.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/timer_CW_25.png"
-dest_files=["res://.godot/imported/timer_CW_25.png-c2c6a8a2d267c3285b885e48eb6e4c28.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/timer_CW_25.png"
+dest_files=["res://.godot/imported/timer_CW_25.png-e6a7f61f061738bfc0b173c18dff0502.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://stovsysfijsy"
-path="res://.godot/imported/hand_token_open.png-1f64bbd81045411f2181727cb6623589.ctex"
+path="res://.godot/imported/hand_token_open.png-cc6ff4d25a048f518f3fdae6f14cd640.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/hand_token_open.png"
-dest_files=["res://.godot/imported/hand_token_open.png-1f64bbd81045411f2181727cb6623589.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/hand_token_open.png"
+dest_files=["res://.godot/imported/hand_token_open.png-cc6ff4d25a048f518f3fdae6f14cd640.ctex"]
 
 [params]
 

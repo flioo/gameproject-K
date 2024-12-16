@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ck86y2ushsiul"
-path="res://.godot/imported/structure_farm.png-2631492898912a7d49f34c9ef68a9782.ctex"
+path="res://.godot/imported/structure_farm.png-5d548deb44e04062a841c16f7b678857.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Double (128px)/structure_farm.png"
-dest_files=["res://.godot/imported/structure_farm.png-2631492898912a7d49f34c9ef68a9782.ctex"]
+source_file="res://assets/ui_ux/PNG/Double (128px)/structure_farm.png"
+dest_files=["res://.godot/imported/structure_farm.png-5d548deb44e04062a841c16f7b678857.ctex"]
 
 [params]
 

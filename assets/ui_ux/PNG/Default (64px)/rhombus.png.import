@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://f35071qpt15w"
-path="res://.godot/imported/rhombus.png-2a82e4a855572ad3f8c875a2c865d89f.ctex"
+path="res://.godot/imported/rhombus.png-bac740a5e326a41bb0c7bbb789282994.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gameproject-K/assets/ui_ux/PNG/Default (64px)/rhombus.png"
-dest_files=["res://.godot/imported/rhombus.png-2a82e4a855572ad3f8c875a2c865d89f.ctex"]
+source_file="res://assets/ui_ux/PNG/Default (64px)/rhombus.png"
+dest_files=["res://.godot/imported/rhombus.png-bac740a5e326a41bb0c7bbb789282994.ctex"]
 
 [params]
 

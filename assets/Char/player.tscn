@@ -1,7 +1,7 @@
-[gd_scene load_steps=12 format=3 uid="uid://diqjoij3og6t1"]
+[gd_scene load_steps=12 format=3 uid="uid://ts2s52iynr1n"]
 
-[ext_resource type="Script" path="res://assets/Char/Script/Player.gd" id="1_gypu5"]
-[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="1_yb3ea"]
+[ext_resource type="Script" path="res://assets/Char/Script/Player.gd" id="1_7fwkr"]
+[ext_resource type="Texture2D" uid="uid://dg7g3e50kkauu" path="res://assets/Char/PlayerSprite02.png" id="2_4indl"]
 
 [sub_resource type="Animation" id="Animation_dubto"]
 length = 0.001
@@ -20,7 +20,6 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_6klfk"]
 resource_name = "idle_down"
-length = 0.4
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -29,7 +28,7 @@ tracks/0/path = NodePath("Sprite2D:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.2, 0.4),
+"times": PackedFloat32Array(0, 0.3, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
 "values": [2, 0, 1]
@@ -37,7 +36,6 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_u88nx"]
 resource_name = "idle_side"
-length = 0.4
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -46,15 +44,14 @@ tracks/0/path = NodePath("Sprite2D:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.2, 0.4),
+"times": PackedFloat32Array(0, 0.3, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 1,
-"values": [6, 7, 8]
+"values": [7, 2, 1]
 }
 
 [sub_resource type="Animation" id="Animation_0aou1"]
 resource_name = "idle_up"
-length = 0.4
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -63,10 +60,10 @@ tracks/0/path = NodePath("Sprite2D:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.2, 0.4),
+"times": PackedFloat32Array(0, 0.3, 0.6),
 "transitions": PackedFloat32Array(1.03526, 1, 1),
 "update": 1,
-"values": [3, 4, 5]
+"values": [14, 0, 1]
 }
 
 [sub_resource type="Animation" id="Animation_mcnur"]
@@ -135,8 +132,7 @@ _data = {
 
 [node name="player" type="CharacterBody2D"]
 position = Vector2(210, 112)
-scale = Vector2(1.00529, 1)
-script = ExtResource("1_gypu5")
+script = ExtResource("1_7fwkr")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -149,7 +145,8 @@ shape = SubResource("CircleShape2D_tb55n")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(133, 67)
-texture = ExtResource("1_yb3ea")
+position = Vector2(356, 253)
+scale = Vector2(1.71875, 1.65625)
+texture = ExtResource("2_4indl")
 hframes = 16
 vframes = 3

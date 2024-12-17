@@ -1,0 +1,73 @@
+[gd_scene load_steps=5 format=3 uid="uid://bm811r4bxetc1"]
+
+[ext_resource type="Script" path="res://scripts/option_menu.gd" id="1_vxv0x"]
+[ext_resource type="Texture2D" uid="uid://ppcx4is3upe1" path="res://GeneralNodes/uiux/ui_ux/bg/bg1.png" id="2_oqij6"]
+[ext_resource type="Theme" uid="uid://dothfkkqy84u6" path="res://GeneralNodes/uiux/ui_ux/button/button all-theme.tres" id="3_6fhh4"]
+[ext_resource type="Texture2D" uid="uid://0woipuw3f8o1" path="res://GeneralNodes/uiux/ui_ux/button/bg-slots.png" id="4_rm3lf"]
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vxv0x")
+
+[node name="Bg-mainmenu" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_oqij6")
+expand_mode = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 1
+offset_left = 28.0
+offset_top = 22.0
+offset_right = 125.0
+offset_bottom = 103.0
+theme = ExtResource("3_6fhh4")
+texture = ExtResource("4_rm3lf")
+patch_margin_left = 3
+patch_margin_top = 4
+patch_margin_right = 5
+patch_margin_bottom = 5
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -37.0
+offset_top = -35.0
+offset_right = 37.0
+offset_bottom = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Audio" type="Button" parent="NinePatchRect/VBoxContainer"]
+layout_mode = 2
+text = "Audio"
+
+[node name="Back" type="Button" parent="NinePatchRect/VBoxContainer"]
+layout_mode = 2
+text = "Back"
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="."]
+layout_mode = 1
+offset_left = 130.0
+offset_top = 22.0
+offset_right = 433.0
+offset_bottom = 325.0
+texture = ExtResource("4_rm3lf")
+region_rect = Rect2(0, 0, 128.938, 128)
+
+[connection signal="pressed" from="NinePatchRect/VBoxContainer/Back" to="." method="_on_back_pressed"]

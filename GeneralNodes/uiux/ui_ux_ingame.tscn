@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=3 uid="uid://bj78tcrml7erw"]
+
+[ext_resource type="Script" path="res://GeneralNodes/uiux/ui_ux_ingame.gd" id="1_urb8r"]
+[ext_resource type="Theme" uid="uid://dothfkkqy84u6" path="res://GeneralNodes/uiux/ui_ux/button/button all-theme.tres" id="2_yjbas"]
+[ext_resource type="Texture2D" uid="uid://0woipuw3f8o1" path="res://GeneralNodes/uiux/ui_ux/button/bg-slots.png" id="3_qoqyx"]
+[ext_resource type="Texture2D" uid="uid://dk7ugk8sutsaa" path="res://GeneralNodes/uiux/ui_ux/healt-bar/health-bar.png" id="4_hvpnq"]
+
+[node name="ui-ux-ingame" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+pivot_offset = Vector2(581, 320)
+script = ExtResource("1_urb8r")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Back-in-game" type="Button" parent="CanvasLayer"]
+offset_left = 25.0
+offset_top = 15.0
+offset_right = 125.0
+offset_bottom = 48.0
+theme = ExtResource("2_yjbas")
+text = "Menu
+"
+
+[node name="NinePatchRect" type="NinePatchRect" parent="CanvasLayer"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -225.0
+offset_top = -125.0
+offset_right = 225.0
+offset_bottom = -25.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("3_qoqyx")
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+
+[node name="slots" type="HBoxContainer" parent="CanvasLayer/NinePatchRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="CanvasLayer"]
+offset_left = 936.0
+offset_right = 1152.0
+offset_bottom = 61.0
+texture = ExtResource("4_hvpnq")
+
+[node name="healt-bar" type="HBoxContainer" parent="CanvasLayer/NinePatchRect2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[connection signal="pressed" from="CanvasLayer/Back-in-game" to="." method="_on_backingame_pressed"]

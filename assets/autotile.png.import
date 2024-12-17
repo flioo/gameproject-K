@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ksb3mt8reh8j"
-path="res://.godot/imported/gui-health.png-8250e18d3edf7386d672990df7691a57.ctex"
+uid="uid://dm76obndj2wjc"
+path="res://.godot/imported/autotile.png-0047a5f2f275664d08591806bb18e10b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player got hit/gui-health.png"
-dest_files=["res://.godot/imported/gui-health.png-8250e18d3edf7386d672990df7691a57.ctex"]
+source_file="res://assets/autotile.png"
+dest_files=["res://.godot/imported/autotile.png-0047a5f2f275664d08591806bb18e10b.ctex"]
 
 [params]
 

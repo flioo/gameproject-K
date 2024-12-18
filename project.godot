@@ -18,6 +18,10 @@ config/features=PackedStringArray("4.3", "GL Compatibility")
 
 project/assembly_name="tilemap"
 
+[layer_names]
+
+2d_physics/layer_2="i-wall"
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://de16h1gt1eqy"
-path="res://.godot/imported/Autotile 47pcs.png-ddc6b8d6f4f827e380907ee546e3dc8b.ctex"
+uid="uid://c4ydio2vaw4ru"
+path="res://.godot/imported/fence.png-37c9131e2e878dbb8962e6a484f6f21f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/enviroment/Autotile 47pcs.png"
-dest_files=["res://.godot/imported/Autotile 47pcs.png-ddc6b8d6f4f827e380907ee546e3dc8b.ctex"]
+source_file="res://assets/enviroment/fence.png"
+dest_files=["res://.godot/imported/fence.png-37c9131e2e878dbb8962e6a484f6f21f.ctex"]
 
 [params]
 

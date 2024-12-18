@@ -619,7 +619,7 @@ libraries = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 29)
+position = Vector2(-1.25, 37.5)
 scale = Vector2(0.669, 0.7)
 shape = SubResource("CircleShape2D_tb55n")
 

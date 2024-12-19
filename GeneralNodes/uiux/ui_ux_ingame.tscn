@@ -47,6 +47,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="NinePatchRect2" type="NinePatchRect" parent="CanvasLayer"]
+visible = false
 offset_left = 936.0
 offset_right = 1152.0
 offset_bottom = 61.0

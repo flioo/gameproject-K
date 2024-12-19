@@ -18,6 +18,8 @@ config/features=PackedStringArray("4.3", "GL Compatibility")
 [autoload]
 
 GlobalPlayerManager="*res://00_globals/global_player_manager.gd"
+AudioStreamPlayer2d="*res://audio_stream_player_2d.tscn"
+PlayerHud="*res://assets/player got hit/player_hud.tscn"
 
 [display]
 

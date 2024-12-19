@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwewosy2nvgdi"]
+
+[ext_resource type="Script" path="res://assets/player got hit/player_hud.gd" id="1_v2ls4"]
+[ext_resource type="PackedScene" uid="uid://doqxy5rlm1mxp" path="res://assets/player got hit/heart_gui.tscn" id="2_dvjhk"]
+
+[node name="PlayerHud" type="CanvasLayer"]
+script = ExtResource("1_v2ls4")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="HFlowContainer" type="HFlowContainer" parent="Control"]
+layout_mode = 0
+offset_left = 886.0
+offset_top = -2.0
+offset_right = 926.0
+offset_bottom = 38.0
+scale = Vector2(5, 5)
+
+[node name="heart_gui" parent="Control/HFlowContainer" instance=ExtResource("2_dvjhk")]
+layout_mode = 2
+
+[node name="heart_gui2" parent="Control/HFlowContainer" instance=ExtResource("2_dvjhk")]
+layout_mode = 2
+
+[node name="heart_gui3" parent="Control/HFlowContainer" instance=ExtResource("2_dvjhk")]
+layout_mode = 2

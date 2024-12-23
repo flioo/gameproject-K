@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://doqxy5rlm1mxp"]
 
 [ext_resource type="Script" path="res://assets/player got hit/heart_gui.gd" id="1_ha7df"]
-[ext_resource type="Texture2D" uid="uid://ksb3mt8reh8j" path="res://assets/player got hit/gui-health.png" id="1_slxt0"]
+[ext_resource type="Texture2D" uid="uid://dk7ugk8sutsaa" path="res://GeneralNodes/uiux/ui_ux/healt-bar/health-bar.png" id="2_m2u3q"]
 
 [node name="Control" type="Control"]
 custom_minimum_size = Vector2(8, 0)
@@ -11,7 +11,6 @@ script = ExtResource("1_ha7df")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 1)
-texture = ExtResource("1_slxt0")
+texture = ExtResource("2_m2u3q")
 centered = false
-hframes = 7
-vframes = 2
+hframes = 4

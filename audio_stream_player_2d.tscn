@@ -1,7 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://bcr7abqcu0gws"]
 
-[ext_resource type="AudioStream" uid="uid://dp6udwdk6dxqj" path="res://Main Scene/yt1s.com - Yung Kai  Blue Lyrics.mp3" id="1_0iryw"]
+[ext_resource type="AudioStream" uid="uid://dp6udwdk6dxqj" path="res://Main Scene/yt1s.com - Yung Kai  Blue Lyrics.mp3" id="1_e8v3u"]
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
-stream = ExtResource("1_0iryw")
+stream = ExtResource("1_e8v3u")
 autoplay = true

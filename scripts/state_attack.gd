@@ -20,11 +20,12 @@ func Enter() -> void :
 	audio.pitch_scale = randf_range(2.0,3.0)
 	audio.play()
 	attacking = true
-	hurtbox.monitoring = true
 	
 	
 	await get_tree().create_timer(0.075).timeout
-	
+	if attacking:
+		hurtbox.monitoring = true
+		
 	pass
 func Exit() -> void :
 	animation_player.animation_finished.disconnect(EndAttack)

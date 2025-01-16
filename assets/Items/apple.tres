@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://dwdrddabou86d"]
+
+[ext_resource type="Script" path="res://assets/Items/item_data.gd" id="1_iaoep"]
+[ext_resource type="Texture2D" uid="uid://cd0wy6sf0abdl" path="res://assets/Items/items.png" id="2_tqdoj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2h53y"]
+atlas = ExtResource("2_tqdoj")
+region = Rect2(192, 0, 31, 37)
+
+[resource]
+script = ExtResource("1_iaoep")
+name = "apel"
+description = "makanan paling lezat"
+texture = SubResource("AtlasTexture_2h53y")

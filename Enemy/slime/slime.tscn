@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://cc7yhfjvnry0y"]
+[gd_scene load_steps=36 format=3 uid="uid://cc7yhfjvnry0y"]
 
 [ext_resource type="Texture2D" uid="uid://q2n6dmdg8u0e" path="res://Enemy/slime/Slime.png" id="1_6gsbx"]
 [ext_resource type="Script" path="res://Enemy/Script/enemy.gd" id="1_rflo5"]
@@ -13,6 +13,8 @@
 [ext_resource type="Texture2D" uid="uid://d2bcvn0h4ieta" path="res://assets/Enemy/DestroySmoke.png" id="9_oi04a"]
 [ext_resource type="Script" path="res://Enemy/Script/state/enemy_state_stun.gd" id="11_8ypa6"]
 [ext_resource type="Script" path="res://Enemy/Script/state/enemy_state_destroy.gd" id="12_hpugy"]
+[ext_resource type="Script" path="res://assets/drop_data.gd" id="13_686c7"]
+[ext_resource type="Resource" uid="uid://uxnrap7orwo7" path="res://assets/Items/gem.tres" id="14_1op88"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_tosnr"]
 radius = 14.0
@@ -659,6 +661,13 @@ _data = {
 "walk_up": SubResource("Animation_bfeov")
 }
 
+[sub_resource type="Resource" id="Resource_qcxsp"]
+script = ExtResource("13_686c7")
+item = ExtResource("14_1op88")
+probability = 100.0
+min_amount = 1
+max_amount = 99
+
 [sub_resource type="Animation" id="Animation_gcjis"]
 length = 0.001
 tracks/0/type = "value"
@@ -785,6 +794,7 @@ next_state = NodePath("../idle")
 
 [node name="Destroy" type="Node" parent="enemystatemachine"]
 script = ExtResource("12_hpugy")
+drops = Array[ExtResource("13_686c7")]([SubResource("Resource_qcxsp"), null])
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 max_polyphony = 4
